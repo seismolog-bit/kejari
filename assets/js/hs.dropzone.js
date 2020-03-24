@@ -16,7 +16,7 @@
 
 		defaults: {
 			// Default variables
-			url: "https://seismolog-bit.github.io/kejari/assets/include/upload.html",
+			// url: "assets/include/upload.html",
 			thumbnailWidth: 300,
 			thumbnailHeight: 300,
 			previewTemplate: $('<div>' +
