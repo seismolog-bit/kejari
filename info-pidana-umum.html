@@ -317,7 +317,458 @@
       </div>
     </div>
     <!-- End Hero Section -->
-    
+
+    <!-- Data Info Pidana Umum -->
+    <div class="container space-2">
+      <!-- Search -->
+      <div class="input-group input-group-sm mb-4">
+        <div class="input-group-prepend">
+          <span class="input-group-text bg-white">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+        <input id="datatableSearch" class="form-control" type="email" placeholder="Search activities" aria-label="Search activities">
+      </div>
+      <!-- End Search -->
+
+      <div class="table-responsive-md datatable">
+        <table id="datatableWithSearch" class="table table-borderless datatable-striped datatable-content datatable-trigger mb-5"
+              data-hs-datatables-options='{
+                "search": "#datatableSearch",
+                "pageLength": 24,
+                "info": {
+                  "currentInterval": "#datatableWithPaginationInfoCurrentInterval",
+                  "totalQty": "#datatableWithPaginationInfoTotalQty"
+                },
+                "pageLength": 12,
+                "isResponsive": false,
+                "isShowPaging": true,
+                "pagination": "datatablePagination",
+                "paginationClasses": "pagination mb-0"
+              }'>
+          <thead>
+            <tr class="text-uppercase font-size-1">
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  #
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  Instansi Penyidik
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  Diterima Kejaksaan
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  Tersangka
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  Pasal yang disangkal
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  Jaksa Peneliti
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+              <th scope="col" class="font-weight-medium">
+                <div class="d-flex justify-content-between align-items-center">
+                  Jenis
+                  <div class="ml-2">
+                    <i class="fas fa-angle-up datatable-thead-icon"></i>
+                    <i class="fas fa-angle-down datatable-thead-icon"></i>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="font-size-1">
+            <tr>
+              <td class="align-middle text-body">613</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/07/2018</td>
+              <td class="align-middle text-body">Siti Anita Alias Nita</td>
+              <td class="align-middle text-body">326 KUHP</td>
+              <td class="align-middle text-body">Yanti,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">614</td>
+              <td class="align-middle text-body">Polsek Metro Keb.lama</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Ferryzal Bin H.Nurhasan (alm)</td>
+              <td class="align-middle text-body">362 KUHP dan 53 KUHP</td>
+              <td class="align-middle text-body">Trihandayani Ika, SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">615</td>
+              <td class="align-middle text-body">Polsek Metro Psr.Minggu</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Iqbal Rizky Adiputra als Jebing</td>
+              <td class="align-middle text-body">Pasal 2 (1) UU Darurat No. 12 thn 1951</td>
+              <td class="align-middle text-body">Fitriah,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">616</td>
+              <td class="align-middle text-body">Polsek Metro Psr.Minggu</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Romi Heryadi als Rom bin Jayadi</td>
+              <td class="align-middle text-body">362 KUHP</td>
+              <td class="align-middle text-body">Deasy,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">617</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Sunardi als Asun</td>
+              <td class="align-middle text-body">362 KUHP JO 480 KUHP</td>
+              <td class="align-middle text-body">Nasrudin,SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">618</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Chairul Noveri als Veri als Buyung</td>
+              <td class="align-middle text-body">363 KHUP</td>
+              <td class="align-middle text-body">Diana,SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">619</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">I Wayan Kardimara</td>
+              <td class="align-middle text-body">372 KUHP</td>
+              <td class="align-middle text-body">Yoga,SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">620</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Alfian Siradjuddin</td>
+              <td class="align-middle text-body">372 KHUP</td>
+              <td class="align-middle text-body">Rewi,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">621</td>
+              <td class="align-middle text-body">Polsek Metro Pancoran</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Muh Sobari bin Kujari</td>
+              <td class="align-middle text-body">363 KHUP</td>
+              <td class="align-middle text-body">Yenita,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">622</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Dalam Penyidikan</td>
+              <td class="align-middle text-body">363 KHUP</td>
+              <td class="align-middle text-body">Anesta,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">623</td>
+              <td class="align-middle text-body">Polsek Metro Pancoran</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Afan Risky Adi. P</td>
+              <td class="align-middle text-body">351 KHUP</td>
+              <td class="align-middle text-body">Micheal,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">624</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Windi Harum Sari</td>
+              <td class="align-middle text-body">374 KHUP</td>
+              <td class="align-middle text-body">Komang Rai,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">625</td>
+              <td class="align-middle text-body">Polsek Kebayoran Lama</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Arin Fadilah als Black bin</td>
+              <td class="align-middle text-body">362 KHUP</td>
+              <td class="align-middle text-body">Fitriah,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">626</td>
+              <td class="align-middle text-body">Polres Metro Jakarta Selatan</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Alendra als Ajiwijaya</td>
+              <td class="align-middle text-body">363 KUHP</td>
+              <td class="align-middle text-body">Michael,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">627</td>
+              <td class="align-middle text-body">Polsek Metro Jagakarsa</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Dodie Wahyudi als Wahyu</td>
+              <td class="align-middle text-body">372 KHUP</td>
+              <td class="align-middle text-body">Ika,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">628</td>
+              <td class="align-middle text-body">Polsek Metro Cilandak</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Penyelidikan</td>
+              <td class="align-middle text-body">363 KUHP</td>
+              <td class="align-middle text-body">Rewi,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">629</td>
+              <td class="align-middle text-body">Polsek Metro Setiabudi</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Suparman Kutayasa</td>
+              <td class="align-middle text-body">351 KUHP</td>
+              <td class="align-middle text-body">Donny,SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">630</td>
+              <td class="align-middle text-body">Polres Jaksel</td>
+              <td class="align-middle text-body">11/07/2018</td>
+              <td class="align-middle text-body">Siti Hawa als Siwa</td>
+              <td class="align-middle text-body">378 KUHP</td>
+              <td class="align-middle text-body">Anesta,SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">631</td>
+              <td class="align-middle text-body">Polres Jaksel</td>
+              <td class="align-middle text-body">11/08/2018</td>
+              <td class="align-middle text-body">Syamsul Maiarif</td>
+              <td class="align-middle text-body">365 KUHP</td>
+              <td class="align-middle text-body">Septina,SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">632</td>
+              <td class="align-middle text-body">Polres Jaksel</td>
+              <td class="align-middle text-body">11/08/2018</td>
+              <td class="align-middle text-body">Ali Karimi Farrokholiah</td>
+              <td class="align-middle text-body">363 KUHP</td>
+              <td class="align-middle text-body">Yanti,SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">633</td>
+              <td class="align-middle text-body">Polres Jaksel</td>
+              <td class="align-middle text-body">11/09/2018</td>
+              <td class="align-middle text-body">Sigit Prastyo</td>
+              <td class="align-middle text-body">362 KUHP</td>
+              <td class="align-middle text-body">Sigit,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">634</td>
+              <td class="align-middle text-body">Polres Jaksel</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Kurniawan Sandy</td>
+              <td class="align-middle text-body">365 KUHP</td>
+              <td class="align-middle text-body">Lasmira,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">665</td>
+              <td class="align-middle text-body">Polsek Pesanggrahan</td>
+              <td class="align-middle text-body">11/02/2018</td>
+              <td class="align-middle text-body">Virta Septiyani</td>
+              <td class="align-middle text-body">378 JO</td>
+              <td class="align-middle text-body">Septina,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">666</td>
+              <td class="align-middle text-body">Polsek Metro Keb.Lama</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Teguh liahi bin Tarmudi</td>
+              <td class="align-middle text-body">362 KUHP</td>
+              <td class="align-middle text-body">Anesta, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">667</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Hendriyadi Wibowo als.Bowo</td>
+              <td class="align-middle text-body">372 KUHP</td>
+              <td class="align-middle text-body">Sigit, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">668</td>
+              <td class="align-middle text-body">Polsek Metro Setiabudi</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Muhammad Rizky Ramadhan</td>
+              <td class="align-middle text-body">372 KUHP</td>
+              <td class="align-middle text-body">Fitriah, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">669</td>
+              <td class="align-middle text-body">Polsek Metro Jagakarsa</td>
+              <td class="align-middle text-body">11/05/2018</td>
+              <td class="align-middle text-body">Sulaiman, DKK</td>
+              <td class="align-middle text-body">374 KUHP</td>
+              <td class="align-middle text-body">Yanti, SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">670</td>
+              <td class="align-middle text-body">Polsek Metro Jagakarsa</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Davit Siagian</td>
+              <td class="align-middle text-body">378 KUHP</td>
+              <td class="align-middle text-body">Lasmira, SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">671</td>
+              <td class="align-middle text-body">Polsek Metro Jagakarsa</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Herul Sudiarsyah</td>
+              <td class="align-middle text-body">372 KUHP</td>
+              <td class="align-middle text-body">Donny, SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">672</td>
+              <td class="align-middle text-body">Polsek Metro Jagakarsa</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Irawati Ningsih</td>
+              <td class="align-middle text-body">378 KUHP</td>
+              <td class="align-middle text-body">Diana, SH</td>
+              <td class="align-middle text-body">OHARDA</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">673</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Aden Rizqi Suhada</td>
+              <td class="align-middle text-body">363 KUHP</td>
+              <td class="align-middle text-body">Ika, SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">674</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Muhammad Oetomo</td>
+              <td class="align-middle text-body">362 KUHP</td>
+              <td class="align-middle text-body">Deasy, SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">675</td>
+              <td class="align-middle text-body">Polsek Metro Cilandak</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Zakaria als Zack bin Arsad</td>
+              <td class="align-middle text-body">368 KUHP</td>
+              <td class="align-middle text-body">Yenita, SH</td>
+              <td class="align-middle text-body">NARKOTIKA &amp; ZAT ADIKTIF</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">676</td>
+              <td class="align-middle text-body">Polsek Metro Cilandak</td>
+              <td class="align-middle text-body">11/06/2018</td>
+              <td class="align-middle text-body">Deasy Vita Merdeka Wati</td>
+              <td class="align-middle text-body">378 dan 372 KUHP</td>
+              <td class="align-middle text-body">Septina, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">677</td>
+              <td class="align-middle text-body">Polsek Pesanggrahan</td>
+              <td class="align-middle text-body">11/07/2018</td>
+              <td class="align-middle text-body">Hendra Renaldi als Buyung</td>
+              <td class="align-middle text-body">362 KUHP</td>
+              <td class="align-middle text-body">Irmansyah,SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">678</td>
+              <td class="align-middle text-body">Polsek Metro Cilandak</td>
+              <td class="align-middle text-body">11/08/2018</td>
+              <td class="align-middle text-body">Penyelidikan/</td>
+              <td class="align-middle text-body">378 KUHP</td>
+              <td class="align-middle text-body">Deasy, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">679</td>
+              <td class="align-middle text-body">Polsek Metro Jagakarsa</td>
+              <td class="align-middle text-body">11/08/2018</td>
+              <td class="align-middle text-body">Dalam Penyidikan</td>
+              <td class="align-middle text-body">363 KUHP</td>
+              <td class="align-middle text-body">Juliandra, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+             <tr>
+              <td class="align-middle text-body">680</td>
+              <td class="align-middle text-body">Polres Metro Jaksel</td>
+              <td class="align-middle text-body">11/09/2018</td>
+              <td class="align-middle text-body">Mochammad</td>
+              <td class="align-middle text-body">378 KUHP Dan atau 372 KUHP</td>
+              <td class="align-middle text-body">Nasrudin, SH</td>
+              <td class="align-middle text-body">KAMNEG-TPUL</td>
+             </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Pagination -->
+      <div class="d-flex justify-content-between align-items-center">
+        <nav id="datatablePagination" aria-label="Activity pagination"></nav>
+        <small class="text-body">
+          Showing <span id="datatableWithPaginationInfoCurrentInterval"></span> of <span id="datatableWithPaginationInfoTotalQty"></span> entries
+        </small>
+      </div>
+      <!-- End Pagination -->
+    </div>
+    <!-- End Data Info Pidana Umum -->
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
@@ -720,8 +1171,12 @@
   <!-- JS Front -->
   <script src="assets/js/hs.core.js"></script>
   <script src="assets/js/hs.validation.js"></script>
-  <!-- <script src="assets/js/hs.fancybox.js"></script> -->
   <script src="assets/js/hs.slick-carousel.js"></script>
+
+  <!-- JS Table -->
+  <script src="assets/vendor/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="assets/js/hs.datatables.js"></script>
+  <!-- End Js Table -->
 
   <!-- JS Plugins Init. -->
   <script>
@@ -760,6 +1215,11 @@
       $('.js-go-to').each(function () {
         var goTo = new HSGoTo($(this)).init();
       });
+
+      // initialization of datatables
+      var datatable = $.HSCore.components.HSDatatables.init($('#datatable'));
+      var datatableWithPagination = $.HSCore.components.HSDatatables.init($('#datatableWithPagination'));
+      var datatableWithSearch = $.HSCore.components.HSDatatables.init($('#datatableWithSearch'));
     });
   </script>
 
