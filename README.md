@@ -14,10 +14,10 @@ Layanan
       [!] Tanggal pelaksaan lalang: Hari, tanggal, pukul, lokasi,
       [!] Persyaratan lelang (upload document) 
 [+] Tilang Drive Thru (+ js)
-  [+] Petunjuk
+  [+] Panduan Pengguna
       [i] Petunjuk penggunaan pendaftaran tilang, petunjuk cara tau denda tilang, dan petunjuk pembayaran tilang melalui Rekening Kejari
-  [+] Form Pendaftaran
-      [!] Data: Nomor registrasi, nomor telepon, foto bukti surat tilang, foto bukti pembayaran
   [+] Cek Putusan Tilang 
       [i] Pencarian tilang oleh pengguna untuk mengetahui denda yang harus dibayarkan
+  [+] Form Pendaftaran
+      [!] Data: Nomor registrasi, nomor telepon, foto bukti surat tilang, foto bukti pembayaran
 [+] 
