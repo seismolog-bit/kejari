@@ -22,6 +22,8 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="assets/css/theme.css">
+  <!-- Portfolio -->
+  <link rel="stylesheet" href="assets/vendor/cubeportfolio/css/cubeportfolio.min.css">
 </head>
 
 <body>
@@ -40,6 +42,29 @@
 
             <!-- Secondary Content -->
             <div class="navbar-nav-wrap-content">
+              <!-- Search Classic -->
+              <div class="hs-unfold d-lg-none d-inline-block position-static">
+                <a class="js-hs-unfold-invoker btn btn-icon btn-xs btn-icon rounded-circle mr-1" href="javascript:;"
+                   data-hs-unfold-options='{
+                    "target": "#searchClassic",
+                    "type": "css-animation",
+                    "animationIn": "slideInUp"
+                   }'>
+                  <i class="fas fa-search"></i>
+                </a>
+
+                <div id="searchClassic" class="hs-unfold-content dropdown-menu w-100 shadow border-0 rounded-0 px-3 mt-0">
+                  <form class="input-group input-group-sm input-group-merge">
+                    <input type="text" class="form-control" placeholder="Apa yang ingin Anda baca?" aria-label="Apa yang ingin Anda baca?">
+                    <div class="input-group-append">
+                      <div class="input-group-text">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- End Search Classic -->
 
               <!-- Login Button -->
               <div class="d-inline-block ml-auto">
@@ -230,7 +255,7 @@
                             <span class="d-block h5">Datun</span>
                             <div class="mb-3">
                               <a class="dropdown-item" href="pelayanan-hukum-instansi.html">Pelayanan Hukum Instansi</a>
-                              <a class="dropdown-item" href="pelayanan-hukum.html">Pelayanan Hukum Gratis</a>
+                              <a class="dropdown-item" href="pelayanan-hukum.html">Pelayanan Hukum Masyarakat</a>
                             </div>
                             <span class="d-block h5">Pidum</span>
                             <div class="mb-3">
@@ -252,7 +277,6 @@
                             <span class="d-block h5">Barang Bukti</span>
                             <div class="mb-3">
                               <a class="dropdown-item" href="info-pengambilan-bb.html">Informasi Pengambilang BB</a>
-                              <a class="dropdown-item" href="info-pengembalian-bb.html">Informasi Pengembalian BB</a>
                             </div>
                             <span class="d-block h5">Intel</span>
                             <div class="mb-3">
@@ -274,6 +298,14 @@
 
                 <!-- Search Form -->
                 <li class="d-none d-lg-inline-block navbar-nav-item flex-grow-1 mx-2">
+                  <form class="input-group input-group-sm input-group-merge w-75">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-search"></i>
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Apa yang ingin Anda baca?" aria-label="Apa yang ingin Anda baca?">
+                  </form>
                 </li>
                 <!-- End Search Form -->
 
@@ -307,250 +339,204 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- Hero Section -->
-    <div class="bg-img-hero" style="background-image: url(assets/svg/components/abstract-shapes-12.svg);">
-      <div class="container space-top-3 space-top-lg-4 space-bottom-2">
-        <div class="w-md-80 w-lg-60 text-center mx-md-auto">
-          <h1>Pelayanan Hukum Masyarakat</h1>
-          <p>Pelayanan Hukum Masyarakat</p>
-        </div>
-      </div>
-    </div>
-   
-    <!-- End Layanan Section -->
-    <div class="container space-2 space-lg-3">
-      <div class="row">
-        <div class="col-lg-6 mb-3 mb-lg-0">
-          <!-- Card -->
-          <div class="card bg-primary text-white h-100 overflow-hidden p-5">
-            <div class=" w-md-65 pr-2 ">
-              <h2 class="text-white">Panduan Pengguna</h2>
-              <p class="text-white w-sm-100">Informasi panduan penggunaan Pelayanan Hukum Masyarakat (Gratis)</p>
-              <a class="btn btn-sm btn-light transition-3d-hover" href="pelayanan-hukum-panduan.html">Selengkapnya <i class="fas fa-angle-right ml-1"></i></a>
-            </div>
-            <div class="position-absolute right-0 bottom-0 w-50 mb-n3 mr-n4">
-              <img class="img-fluid" src="assets/img/mockups/img15.png" alt="Image Description">
-            </div>
-          </div>
-          <!-- End Card -->
-        </div>
-
-        <div class="col-lg-6">
-          <!-- Card -->
-          <div class="card bg-warning text-white h-100 overflow-hidden p-5">
-            <div class=" w-md-65 pr-2">
-              <h2 class="text-white">Formulir Layanan</h2>
-              <p class="text-white w-sm-100">Formulir Layanan Hukum Masyarakat (Gratis).</p>
-              <a class="btn btn-sm btn-light transition-3d-hover" href="pelayanan-hukum-form.html">Selengkapnya <i class="fas fa-angle-right ml-1"></i></a>
-            </div>
-            <div class="position-absolute right-0 bottom-0 w-50 mb-n3 mr-n4">
-              <img class="img-fluid" src="assets/img/mockups/img12.png" alt="Image Description">
-            </div>
-          </div>
-          <!-- End Card -->
-        </div>
-      </div>
-    </div>
-    <!-- End Layanan -->
-
     <!-- Laporan Section -->
-    <div class="container space-bottom-2 space-bottom-lg-3">
-      <!-- Title -->
-      <div class="w-md-80 text-center mx-md-auto space-bottom-1">
-        <h2>Laporan Terbaru</h2>
-        <p class="text-body">Dapatkan informasi tentang hukum yang telah selesai ditanyakan oleh orang lain.</p>
+    <div class="container space-top-3 space-top-lg-4 space-bottom-2">
+      <!-- Hero -->
+      <div class="w-md-80 w-lg-65 mb-5 mb-md-9">
+        <h1 class="mb-4">Pelayanan Hukum Masyarakat</h1>
+        <p>Pelayanan tanya jawab terkait hukum secara gratis. Pelayanan hukum ini meliputi Pidana Umum, Pidana Khusus dan Hukum Perdata. Ingin menggunakan layanan ini?<a class="font-weight-bold" href="#panduan"> Cek Panduan <i class="fas fa-angle-right fa-sm ml-1"></i></a></p>
       </div>
-      <!-- End Title -->
+      <!-- End Hero -->
 
-      <!-- Featured Topics Carousel -->
+      <!-- Filter -->
       <div class="row">
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Perdata</small>
-              <p class="mb-0 text-body">Amazon launched their enterprise platform and built a powerful user experience.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
+        <div class="col-md-4 mb-4">
+          <div class="navbar-nav-wrap-content">
+            <form class="input-group input-group-sm input-group-merge">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="fa fa-search"></i>
+                </div>
+              </div>
+              <input type="text" class="form-control" placeholder="Cari laporan?" aria-label="Cari laporan?">
+            </form>
+          </div>
+          <!-- End Secondary Content -->
         </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Perdata</small>
-              <p class="mb-0 text-body">Mapbox empowers marketers to create digital marketing dashboards easily and share them with their team.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Umum</small>
-              <p class="mb-0 text-body">Netflix's mission is to create a planet run by the sun. In order to achieve this goal, they needed to find a way to make solar simple.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Umum</small>
-              <p class="mb-0 text-body">Google is an innovator in public safety technology. First-to-market with TASER conducted energy weapons (CEWs).</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Khusus</small>
-              <p class="mb-0 text-body">Front Projects has proved to be most efficient cloud based project tracking and bug tracking tool.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Khusus</small>
-              <p class="mb-0 text-body">Visitors can build a form or survey before signing up, but in order to save and share it, they need to create an account.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Perdata</small>
-              <p class="mb-0 text-body">Google is an innovator in public safety technology. First-to-market with TASER conducted energy weapons (CEWs).</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Perdata</small>
-              <p class="mb-0 text-body">Front Projects has proved to be most efficient cloud based project tracking and bug tracking tool.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Khusus</small>
-              <p class="mb-0 text-body">Front Projects has proved to be most efficient cloud based project tracking and bug tracking tool.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Khusus</small>
-              <p class="mb-0 text-body">Front Projects has proved to be most efficient cloud based project tracking and bug tracking tool.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Pidana Khusus</small>
-              <p class="mb-0 text-body">Visitors can build a form or survey before signing up, but in order to save and share it, they need to create an account.</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-5">
-          <!-- Card Info -->
-          <a class="card transition-3d-hover h-100" href="#">
-            
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2 text-muted">Perdata</small>
-              <p class="mb-0 text-body">Google is an innovator in public safety technology. First-to-market with TASER conducted energy weapons (CEWs).</p>
-            </div>
-            <div class="card-footer">
-              <span class="font-weight-bold" href="customer-story.html">Selengkapnya <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </div>
-          </a>
-          <!-- End Card Info -->
+        <div id="filterControls" class="text-md-right text-sm-center mb-5 col-md-8">
+          <a class="cbp-filter-item cbp-filter-item-active btn btn-xs btn-soft-secondary btn-pill py-2 px-3 m-1" href="javascript:;" data-filter="*">All</a>
+          <a class="cbp-filter-item btn btn-xs btn-soft-secondary btn-pill py-2 px-3 m-1" href="javascript:;" data-filter=".perdata">Perdata</a>
+          <a class="cbp-filter-item btn btn-xs btn-soft-secondary btn-pill py-2 px-3 m-1" href="javascript:;" data-filter=".pidum">Pidana Umum</a>
+          <a class="cbp-filter-item btn btn-xs btn-soft-secondary btn-pill py-2 px-3 m-1" href="javascript:;" data-filter=".pidsus">Pidana Khusus</a>
         </div>
       </div>
-      <!-- End Featured Topics Carousel -->
+     
+      <!-- End Filter -->
 
-      <div class="text-center">
-        <a class="font-weight-bold" href="javascript:;">Laporan lainnya <i class="fa fa-angle-right fa-sm ml-1"></i></a>
+      <!-- Content -->
+      <div class="cbp"
+           data-hs-cbp-options='{
+             "animationType": "fadeOut",
+             "caption": "zoom",
+             "gapHorizontal": 40,
+             "gapVertical": 40,
+             "mediaQueries": [
+               {"width": 1500, "cols": 3},
+               {"width": 1100, "cols": 3},
+               {"width": 800, "cols": 3},
+               {"width": 480, "cols": 2},
+               {"width": 380, "cols": 1}
+             ]
+           }'>
+        <!-- Item -->
+        <div class="cbp-item product pidum">
+          <a class="cbp-caption card-frame" href="portfolio/single-page-grid.html">
+            <!-- <div class="overflow-hidden rounded">
+              <div class="cbp-caption-defaultWrap">
+                <img class="rounded" src="assets/img/400x500/img24.jpg" alt="Image Description">
+              </div>
+            </div> -->
+            <div class="p-4">
+              <span class="d-block small text-body font-weight-bold text-cap">Pidana Umum</span>
+              <span class="d-block h3 mb-0 small">Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</span>
+            </div>
+          </a>
+        </div>
+        <!-- End Item -->
+        <!-- Item -->
+        <div class="cbp-item product pidum">
+          <a class="cbp-caption card-frame" href="portfolio/single-page-grid.html">
+            <div class="p-4">
+              <span class="d-block small text-body font-weight-bold text-cap">Pidana Umum</span>
+              <span class="d-block h3 mb-0 small">Master Vue.js and build awesome, web apps with the successor of Vue.js.</span>
+            </div>
+          </a>
+        </div>
+        <!-- End Item -->
+        <!-- Item -->
+        <div class="cbp-item product pidsus">
+          <a class="cbp-caption card-frame" href="portfolio/single-page-grid.html">
+            <div class="p-4">
+              <span class="d-block small text-body font-weight-bold text-cap">Pidana Khusus</span>
+              <span class="d-block h3 mb-0 small">Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</span>
+            </div>
+          </a>
+        </div>
+        <!-- End Item -->
+        <!-- Item -->
+        <div class="cbp-item product perdata">
+          <a class="cbp-caption card-frame" href="portfolio/single-page-grid.html">
+            <div class="p-4">
+              <span class="d-block small text-body font-weight-bold text-cap">Perdata</span>
+              <span class="d-block h3 mb-0 small">Learn coding block from basics. Make your first 4 blocks in Unreal engine. Interactive tutorial.</span>
+            </div>
+          </a>
+        </div>
+        <!-- End Item -->
+        <!-- Item -->
+        <div class="cbp-item product pidum">
+          <a class="cbp-caption card-frame" href="portfolio/single-page-grid.html">
+            <div class="p-4">
+              <span class="d-block small text-body font-weight-bold text-cap">Pidana Umum</span>
+              <span class="d-block h3 mb-0 small">Master magazine layout design and publish awesome layout designs.</span>
+            </div>
+          </a>
+        </div>
+        <!-- End Item -->
+        <!-- Item -->
+        <div class="cbp-item product perdata">
+          <a class="cbp-caption card-frame" href="portfolio/single-page-grid.html">
+            <div class="p-4">
+              <span class="d-block small text-body font-weight-bold text-cap">Perdata</span>
+              <span class="d-block h3 mb-0 small">Answer a few questions and match your goals to our programs.</span>
+            </div>
+          </a>
+        </div>
+        <!-- End Item -->
       </div>
     </div>
     <!-- End Laporan Section -->
+
+    <!-- Panduan Section -->
+    <div id="panduan" class="overflow-hidden">
+      <div class="container space-2 space-lg-3">
+        <div class="row justify-content-lg-between align-items-lg-center">
+          <div class="col-lg-6 mb-9 mb-lg-0">
+            <!-- Mockups -->
+            <div class="position-relative max-w-40rem mx-auto">
+              <div class="device device-iphone-x w-85 mx-auto">
+                <img class="device-iphone-x-frame" src="assets/svg/components/iphone-x.svg" alt="Image Description">
+                <img class="device-iphone-x-screen" src="assets/img/407x867/img1.jpg" alt="Image Description">
+              </div>
+
+              <div class="position-absolute top-0 right-0 z-index-2 max-w-33rem mr-n11 mt-9">
+                <img class="img-fluid shadow-lg rounded" src="assets/img/407x115/img1.jpg" alt="Image Description">
+              </div>
+              <div class="position-absolute bottom-0 left-0 z-index-2 max-w-33rem ml-n10 mb-10">
+                <img class="img-fluid shadow-lg rounded" src="assets/img/480x320/img26.jpg" alt="Image Description">
+              </div>
+
+              <div class="position-absolute bottom-0 right-0 max-w-50rem w-100 z-index-n1 mx-auto">
+                <img class="img-fluid" src="assets/svg/components/abstract-shapes-3.svg" alt="Image Description">
+              </div>
+            </div>
+            <!-- End Mockups -->
+          </div>
+
+          <div class="col-lg-5">
+            <div class="mb-5">
+              <h2>Panduan Layanan Hukum Masyarakat</h2>
+            </div>
+
+            <!-- Icon Block -->
+            <ul class="step step-dashed mb-7">
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">1</span>
+                  <div class="step-content">
+                    <h3 class="h4">Login Pengguna</h3>
+                    <p>Login sebagai pengguna untuk dapat melakukan pendaftaran Loket Tilang Drive Thru.</p>
+                  </div>
+                 </div>
+              </li>
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">2</span>
+                  <div class="step-content">
+                    <h4>Mengisi Formulir</h4>
+                    <p class="mb-0">Lengkapi formulir Layanan Hukum Masyarakat secara benar.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">4</span>
+                  <div class="step-content">
+                    <h4>Verifikasi Petugas</h4>
+                    <p class="mb-0">Petugas akan melakukan verifikasi pertanyaan yang Anda ajukan dalam waktu 2-3 hari kerja.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="step-item mb-0">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">3</span>
+                  <div class="step-content">
+                    <h4>Menerima Laporan Petugas</h4>
+                    <p class="mb-0">Saat terverifikasi petugas akan membuatkan balasan berupa laporan dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- End Icon Block -->
+
+            <div class="mt-2">
+              <a class="btn btn-primary transition-3d-hover px-4" href="pelayanan-hukum-form.html">Formulir Hukum</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Panduan Section -->
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
@@ -955,6 +941,9 @@
   <script src="assets/js/hs.validation.js"></script>
   <!-- <script src="assets/js/hs.fancybox.js"></script> -->
   <script src="assets/js/hs.slick-carousel.js"></script>
+  <!-- Portfolio -->
+  <script src="assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="assets/js/hs.cubeportfolio.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -992,6 +981,15 @@
       // initialization of go to
       $('.js-go-to').each(function () {
         var goTo = new HSGoTo($(this)).init();
+      });
+
+      // initialization of cubeportfolio
+      $('.cbp').each(function () {
+        var cbp = $.HSCore.components.HSCubeportfolio.init($(this), {
+          layoutMode: 'mosaic',
+          filters: '#filterControls',
+          displayTypeSpeed: 0
+        });
       });
     });
   </script>

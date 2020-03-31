@@ -21,3 +21,21 @@ Layanan
   [+] Form Pendaftaran
       [!] Data: Nomor registrasi, nomor telepon, foto bukti surat tilang, foto bukti pembayaran
 [+] 
+
+- layanan hukum instansi: dipecah perlayanan
+- layanan hukum masyarakat: pake portofilio. searching
+- berita: searching
+- pidsus hapus putusan sama eksekusi
+- tilang drive thru: cek putusan (e-tilang), hapus nomor telepon, scroll tab menu
+- intel pengaduan masyarakat: topik pengaduan 
+- intel jaga desa: field nama laporan
+- intel penyuluhan: materi
+- intel: topik pengaduan
+
+- form di jadiin md-10 lg-10
+
+Tahapan:
+- diterima (secondary),
+- dibaca (success),
+- proses: diproses (warning) /ditolak (danger)
+- selesai (primary)
