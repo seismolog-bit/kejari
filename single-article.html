@@ -26,9 +26,8 @@
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="header left-aligned-navbar header-box-shadow-on-scroll header-abs-top header-show-hide">
+  <header id="header" class="header header-sticky-top-lg header-sticky-top-inner header-box-shadow-on-scroll header-abs-top left-aligned-navbar">
     <div class="header-section">
-
       <div id="logoAndNav" class="container">
         <!-- Nav -->
         <nav class="js-mega-menu navbar navbar-expand-lg">
@@ -308,661 +307,385 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- Hero Section -->
-    <div class="position-relative border-bottom">
-      <!-- Hero Carousel Main -->
-      <div id="heroNav" class="js-slick-carousel slick slick-equal-height" data-hs-slick-carousel-options='{
-             "prevArrow": "<span class=\"fas fa-arrow-left d-none d-md-inline-block slick-arrow slick-arrow-soft-white slick-arrow-left slick-arrow-centered-y rounded-circle ml-sm-2 ml-xl-4\"></span>",
-             "nextArrow": "<span class=\"fas fa-arrow-right d-none d-md-inline-block slick-arrow slick-arrow-soft-white slick-arrow-right slick-arrow-centered-y rounded-circle mr-sm-2 mr-xl-4\"></span>",
-             "infinite": true,
-             "autoplay": true,
-             "autoplaySpeed": 10000,
-             "adaptiveHeight": true,
-             "counterSelector": "#slickCounter",
-             "counterDivider": "/",
-             "counterClassMap": {
-               "current": "slick-counter-current",
-               "total": "slick-counter-total",
-               "divider": "slick-counter-divider"
-             },
-             "dots": true,
-             "dotsClass": "slick-pagination slick-pagination-white d-md-none container position-absolute bottom-0 right-0 left-0 justify-content-start mb-6 pl-3 mx-auto",
-             "asNavFor": "#heroNavThumb"
-           }'>
-        <div class="js-slide gradient-y-overlay-sm-dark bg-img-hero"
-          style="background-image: url(assets/img/news/news_1.jpg);">
-          <!-- Slide #1 -->
-          <div class="container d-md-flex align-items-md-center vh-md-70 space-top-4 space-bottom-3 space-md-0">
-            <div class="w-80 w-lg-50">
-              <h1 class="text-white display-4 mb-0" data-hs-slick-carousel-animation="fadeInUp"
-                data-hs-slick-carousel-animation-delay="200">
-                Tim Intel Kejari Kab. Malang Tangkap DPO Sanusi
-              </h1>
-            </div>
-          </div>
-          <!-- End Slide #1 -->
+    <!-- Article Description Section -->
+    <div class="container space-top-3 space-bottom-2">
+      <div class="w-lg-60 mx-lg-auto">
+        <div class="mb-4">
+          <h1 class="h2">Announcing a free plan for small teams</h1>
         </div>
 
-        <div class="js-slide gradient-y-overlay-sm-dark bg-img-hero"
-          style="background-image: url(assets/img/news/news_2.jpg);">
-          <!-- Slide #2 -->
-          <div class="container d-md-flex align-items-md-center vh-md-70 space-top-4 space-bottom-3 space-md-0">
-            <div class="w-80 w-lg-50">
-              <h2 class="text-white display-4 mb-0" data-hs-slick-carousel-animation="fadeInUp"
-                data-hs-slick-carousel-animation-delay="200">
-                Cegah Tindak Pidana Korupsi, Tim TP4D Kejari
-              </h2>
-            </div>
-          </div>
-          <!-- End Slide #2 -->
-        </div>
-      </div>
-      <!-- End Hero Carousel Main -->
-
-      <!-- Slick Paging -->
-      <div class="container position-relative">
-        <div id="slickCounter" class="slick-counter"></div>
-      </div>
-      <!-- End Slick Paging -->
-
-      <!-- Hero Carousel Secondary -->
-      <div id="heroNavThumb" class="js-slick-carousel slick" data-hs-slick-carousel-options='{
-             "infinite": true,
-             "autoplay": true,
-             "autoplaySpeed": 10000,
-             "isThumbs": true,
-             "asNavFor": "#heroNav"
-           }'>
-        <div class="js-slide">
-          <!-- Slide #1 -->
-          <div class="d-flex align-items-center bg-white position-relative vh-md-30">
-            <div class="container space-2">
-              <div class="row">
-                <div class="col-md-4">
-                  <h3 class="text-muted">
-                    <span class="d-block font-weight-bold">01.</span>
-                  </h3>
-                  <p class="mb-0">Tim Intelijen Kejari Kabupaten Malang berhasil menangkap dan mengamankan Sdr. Sanusi, di rumahnya di Desa Putukrejo, Kec. Kalipare, Kab. Malang</p>
+        <!-- Author -->
+        <div class="border-top border-bottom py-4 mb-5">
+          <div class="row align-items-md-center">
+            <div class="col-md-7 mb-5 mb-md-0">
+              <div class="media align-items-center">
+                <div class="avatar avatar-circle">
+                  <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
+                </div>
+                <div class="media-body font-size-1 ml-3">
+                  <span class="h6"><a href="blog-profile.html">Hanna Wolfe</a> <button type="button" class="btn btn-xs btn-soft-primary font-weight-bold transition-3d-hover py-1 px-2 ml-1">Follow</button></span>
+                  <span class="d-block text-muted">July 15, 2018</span>
                 </div>
               </div>
             </div>
+            <div class="col-md-5">
+              <div class="d-flex justify-content-md-end align-items-center">
+                <span class="d-block small font-weight-bold text-cap mr-2">Share:</span>
 
-            <div class="col-md-5 d-none d-md-inline-block bg-primary position-absolute top-0 right-0 bottom-0">
-              <div class="content-centered-y p-7">
-                <h3 class="text-white">
-                  <span class="text-white">Next:</span> Cegah Tindak Pidana Korupsi, Tim TP4D Kejari
-                </h3>
-                <p class="text-white-70 mb-0">Hingga bulan Juli 2019, Tim TP4D Kejari Kab. Malang melakukan tugas Pengawalan dan Pengamanan Pemerintahan dan Pembangunan</p>
+                <a class="btn btn-xs btn-icon btn-soft-secondary rounded-circle ml-2" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-xs btn-icon btn-soft-secondary rounded-circle ml-2" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-xs btn-icon btn-soft-secondary rounded-circle ml-2" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-xs btn-icon btn-soft-secondary rounded-circle ml-2" href="#">
+                  <i class="fab fa-telegram"></i>
+                </a>
               </div>
             </div>
           </div>
-          <!-- End Slide #1 -->
         </div>
+        <!-- End Author -->
 
-        <div class="js-slide">
-          <!-- Slide #2 -->
-          <div class="d-flex align-items-center bg-white position-relative vh-md-30">
-            <div class="container space-2">
-              <div class="row">
-                <div class="col-md-4">
-                  <h3 class="text-muted">
-                    <span class="d-block font-weight-bold">02.</span>
-                  </h3>
-                  <p class="mb-0">Hingga bulan Juli 2019, Tim TP4D Kejari Kab. Malang melakukan tugas Pengawalan dan Pengamanan Pemerintahan dan Pembangunan</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-5 d-none d-md-inline-block bg-navy position-absolute top-0 right-0 bottom-0">
-              <div class="content-centered-y p-7">
-                <h3 class="text-white">
-                  <span class="text-white">Prev:</span> Tim Intel Kejari Kab. Malang Tangkap DPO Sanusi
-                </h3>
-                <p class="text-white-70 mb-0">Tim Intelijen Kejari Kabupaten Malang berhasil menangkap dan mengamankan Sdr. Sanusi, di rumahnya di Desa Putukrejo, Kec. Kalipare, Kab. Malang</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Slide #2 -->
-        </div>
+        <p>At Front, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.</p>
       </div>
-      <!-- End Hero Carousel Secondary -->
-    </div>
-    <!-- End Hero Section -->
 
-    <!-- Popular Layanan Section -->
-    <div class="space-bottom-2 space-bottom-lg-3"
-      style="background: url(assets/svg/components/abstract-shapes-9.svg) center no-repeat;">
-      <div class="position-relative">
-        <div class="container space-2">
-          <!-- Title -->
-          <div class="row align-items-md-center mb-7">
-            <div class="col-md-6 mb-4 mb-md-0">
-              <h2>Layanan online Kejari Kab. Malang</h2>
-            </div>
-            <div class="col-md-6 text-md-right">
-              <a class="font-weight-bold" href="layanan.html">Semua layanan <i
-                  class="fa fa-angle-right fa-sm ml-1"></i></a>
-            </div>
-          </div>
-          <!-- End Title -->
-
-          <div
-            class="js-slick-carousel slick slick-equal-height slick-gutters-3 slick-center-mode-right slick-center-mode-right-offset"
-            data-hs-slick-carousel-options='{
-                 "prevArrow": "<span class=\"fa fa-arrow-left slick-arrow slick-arrow-primary-white slick-arrow-left slick-arrow-centered-y shadow-soft rounded-circle\"></span>",
-                 "nextArrow": "<span class=\"fa fa-arrow-right slick-arrow slick-arrow-primary-white slick-arrow-right slick-arrow-centered-y shadow-soft rounded-circle mr-sm-2 mr-xl-4\"></span>",
-                 "slidesToShow": 4,
-                 "infinite": true,
-                 "responsive": [{
-                   "breakpoint": 1200,
-                     "settings": {
-                       "slidesToShow": 4
-                     }
-                   }, {
-                   "breakpoint": 992,
-                     "settings": {
-                       "slidesToShow": 3
-                     }
-                   }, {
-                   "breakpoint": 768,
-                   "settings": {
-                     "slidesToShow": 2
-                   }
-                   }, {
-                   "breakpoint": 554,
-                   "settings": {
-                     "slidesToShow": 1
-                   }
-                 }]
-               }'>
-
-            <!-- Tilang -->
-            <article class="js-slide pt-2">
-              <a class="card bg-img-hero w-100 min-h-270rem transition-3d-hover" href="tilang-drive-thru.html"
-                style="background-image: url(assets/img/400x500/img13.jpg);">
-                <div class="card-body">
-                  <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Pidum</span>
-                  <h3 class="text-white">Tilang Drive Thru</h3>
-                </div>
-                <div class="card-footer border-0 bg-transparent pt-0">
-                  <span class="text-white font-size-1 font-weight-bold">Selengkapnya</span>
-                </div>
-              </a>
-            </article>
-            <!-- End Tilang -->
-
-            <!-- Article -->
-            <article class="js-slide pt-2">
-              <a class="card bg-img-hero w-100 min-h-270rem transition-3d-hover" href="info-lelang.html"
-                style="background-image: url(assets/img/400x500/img14.jpg);">
-                <div class="card-body">
-                  <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Pembinaan</span>
-                  <h3 class="text-white">Informasi Lelang</h3>
-                </div>
-                <div class="card-footer border-0 bg-transparent pt-0">
-                  <span class="text-white font-size-1 font-weight-bold">Selengkapnya</span>
-                </div>
-              </a>
-            </article>
-            <!-- End Article -->
-
-            <!-- Article -->
-            <article class="js-slide pt-2">
-              <a class="card bg-img-hero w-100 min-h-270rem transition-3d-hover" href="info-pidana-umum.html"
-                style="background-image: url(assets/img/400x500/img15.jpg);">
-                <div class="card-body">
-                  <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Pidum</span>
-                  <h3 class="text-white">Informasi Pidana Umum</h3>
-                </div>
-                <div class="card-footer border-0 bg-transparent pt-0">
-                  <span class="text-white font-size-1 font-weight-bold">Selengkapnya</span>
-                </div>
-              </a>
-            </article>
-            <!-- End Article -->
-
-            <!-- Article -->
-            <article class="js-slide pt-2">
-              <a class="card bg-img-hero w-100 min-h-270rem transition-3d-hover" href="info-pidana-khusus.html"
-                style="background-image: url(assets/img/400x500/img16.jpg);">
-                <div class="card-body">
-                  <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Pidum</span>
-                  <h3 class="text-white">Informasi Pidana Khusus</h3>
-                </div>
-                <div class="card-footer border-0 bg-transparent pt-0">
-                  <span class="text-white font-size-1 font-weight-bold">Selengkapnya</span>
-                </div>
-              </a>
-            </article>
-            <!-- End Article -->
-
-            <!-- Article -->
-            <article class="js-slide pt-2">
-              <a class="card bg-img-hero w-100 min-h-270rem transition-3d-hover" href="izin-besuk-tahanan.html"
-                style="background-image: url(assets/img/400x500/img17.jpg);">
-                <div class="card-body">
-                  <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Pidum</span>
-                  <h3 class="text-white">Izin Besuk Tahanan</h3>
-                </div>
-                <div class="card-footer border-0 bg-transparent pt-0">
-                  <span class="text-white font-size-1 font-weight-bold">Akan Datang</span>
-                </div>
-              </a>
-            </article>
-            <!-- End Article -->
-
-            <!-- Article -->
-            <article class="js-slide pt-2">
-              <a class="card bg-img-hero w-100 min-h-270rem transition-3d-hover" href="jaksa-masuk-sekolah.html"
-                style="background-image: url(assets/img/400x500/img18.jpg);">
-                <div class="card-body">
-                  <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Intel</span>
-                  <h3 class="text-white">Jaksa Masuk Sekolah</h3>
-                </div>
-                <div class="card-footer border-0 bg-transparent pt-0">
-                  <span class="text-white font-size-1 font-weight-bold">Akan Datang</span>
-                </div>
-              </a>
-            </article>
-            <!-- End Article -->
-          </div>
-        </div>
-
-        <div class="w-100 w-md-65 bg-light position-absolute top-0 right-0 bottom-0 rounded-left z-index-n1">
-        </div>
+      <div class="my-4 my-sm-8">
+        <img class="img-fluid rounded" src="assets/img/1920x800/img9.jpg" alt="Image Description">
       </div>
-    </div>
-    <!-- End Popular Layanan Section -->
 
-    <!-- Visi-Misi Section -->
-    <div class="overflow-hidden">
-      <div class="container space-2 space-bottom-lg-3 space-lg-3">
-        <div class="row justify-content-lg-between align-items-md-center">
-          <div class="col-md-6 order-md-2 mb-11 mb-md-0">
-            <div class="position-relative">
-              <img class="img-fluid rounded" src="assets/img/900x900/img5.jpg" alt="Image Description">
+      <div class="w-lg-60 mx-lg-auto">
+        <p>As we've grown, we've seen how Front has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their designers closer together to create amazing things. We've also learned that when the culture of sharing is brought in earlier, the better teams adapt and communicate with one another.</p>
 
-              <!-- SVG Elements -->
-              <figure class="max-w-19rem w-100 position-absolute top-0 left-0 z-index-n1">
-                <div class="mt-n7 ml-n7">
-                  <img class="img-fluid" src="assets/svg/components/dots-2.svg" alt="Image Description">
+        <p>That's why we are excited to share that we now have a <a href="#">free version of Front</a>, which will allow individual designers, startups and other small teams a chance to create a culture of openness early on.</p>
+
+        <blockquote class="bg-soft-primary border-0 rounded text-center text-dark font-size-2 font-weight-bold text-lh-lg p-5 my-5">
+          "I love Front! I love the ease of use, I love the fact that I have total creative freedom..."
+          <span class="d-block text-muted font-size-1 mt-2">- Adrian Teh</span>
+        </blockquote>
+
+        <h3>Bringing the culture of sharing to everyone</h3>
+
+        <p>We know the power of sharing is real, and we want to create an opportunity for everyone to try Front and explore how transformative open communication can be. Now you can have a team of one or two designers and unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process earlier.</p>
+
+        <ul class="list-article">
+          <li>Front allows us to collaborate in real time and is a really great way for leadership on the team to stay up-to-date with what everybody is working on," <a href="#">said</a> Stewart Scott-Curran, Intercom's Director of Brand Design.</li>
+          <li>Front opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work," said David Scott, Creative Director at <a href="#">Eventbrite</a>.</li>
+        </ul>
+      </div>
+
+      <div class="my-4 my-sm-8">
+        <img class="img-fluid rounded" src="assets/img/1920x800/img10.jpg" alt="Image Description">
+      </div>
+
+      <div class="w-lg-60 mx-lg-auto">
+        <p>Small teams and individual designers need a space where they can watch the design process unfold, both for themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer or client. Front allows you to invite more people into the process, creating a central place for conversation around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate and work together.</p>
+
+        <div class="card bg-img-hero bg-navy text-white text-center p-4 my-4" style="background-image: url(assets/svg/components/abstract-shapes-1.svg);">
+          <h4 class="text-white mb-3">Like what you're reading? Subscribe to our top stories.</h4>
+
+          <!-- Form -->
+          <form class="js-validate w-md-75 mx-md-auto">
+            <div class="js-form-message">
+              <div class="d-flex align-items-center">
+                <label class="sr-only" for="subscribeSrArticle">Subscribe</label>
+                <div class="input-group">
+                  <input type="email" class="form-control" id="subscribeSrArticle" placeholder="Your email" aria-label="Your email">
                 </div>
-              </figure>
-              <figure class="max-w-19rem w-100 position-absolute bottom-0 right-0 z-index-n1">
-                <div class="mb-n7 mr-n7">
-                  <img class="img-fluid" src="assets/svg/components/dots-2.svg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End SVG Elements -->
+                <button type="submit" class="btn btn-light ml-3">Submit</button>
+              </div>
+            </div>
+          </form>
+          <!-- End Form -->
+        </div>
+
+        <p>We will continue to update <a href="#">Front</a>; if you have any questions or suggestions, please contact us!</p>
+
+        <p>Follow us on <a href="#">Medium</a>, <a href="#">Twitter</a>, <a href="#">Facebook</a>, <a href="#">YouTube</a>, and <a href="#">Dribbble</a>.</p>
+
+        <!-- Badges -->
+        <div class="mt-5">
+          <a class="btn btn-xs btn-soft-secondary mb-1" href="#">Ecommerce</a>
+          <a class="btn btn-xs btn-soft-secondary mb-1" href="#">Website</a>
+          <a class="btn btn-xs btn-soft-secondary mb-1" href="#">Bootstrap</a>
+          <a class="btn btn-xs btn-soft-secondary mb-1" href="#">Startup</a>
+          <a class="btn btn-xs btn-soft-secondary mb-1" href="#">Free</a>
+        </div>
+        <!-- End Badges -->
+
+        <!-- Share -->
+        <div class="row justify-content-sm-between align-items-sm-center mt-5">
+          <div class="col-sm-6 mb-2 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <span class="d-block small font-weight-bold text-cap mr-2">Share:</span>
+
+              <a class="btn btn-xs btn-icon btn-ghost-secondary rounded-circle mr-2" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="btn btn-xs btn-icon btn-ghost-secondary rounded-circle mr-2" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="btn btn-xs btn-icon btn-ghost-secondary rounded-circle mr-2" href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="btn btn-xs btn-icon btn-ghost-secondary rounded-circle mr-2" href="#">
+                <i class="fab fa-telegram"></i>
+              </a>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-5 order-md-1">
-            <figure class="mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 8 8">
-                <path fill="#377dff" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-                  C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-                  c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-                  C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"></path>
-              </svg>
-            </figure>
-            <div class="mb-6">
-              <blockquote class="font-size-2 text-dark d-none d-md-inline-block">Merespon tuntutan masyarakat terhadap kinerja
-                institusi Kejaksaan, Kejaksaan Republik Indonesia berupaya melakukan Reformasi Birokrasi. Dukung kami!
-              </blockquote>
-              <p class="d-md-none small text-dark">Merespon tuntutan masyarakat terhadap kinerja
-                institusi Kejaksaan, Kejaksaan Republik Indonesia berupaya melakukan Reformasi Birokrasi. Dukung kami! <span class="font-weight-bold text-primary">Tom Lowry</span> <span class="text-primary"> — Kepala Kejari Kab. Malang</span></p>
-            </div>
-
-            <h4 class="h3 mb-0 d-none d-md-inline-block">Tom Lowry <span class="font-size-1">— Kepala Kejari Kab. Malang</span></h4>
-            <!-- <p class="small">CEO</p> -->
+          <div class="col-sm-6 text-sm-right">
+            <a class="btn btn-xs btn-icon btn-soft-secondary rounded-circle mr-2" href="#" data-toggle="tooltip" data-placement="top" title="Bookmark story">
+              <i class="fas fa-bookmark"></i>
+            </a>
+            <a class="btn btn-xs btn-icon btn-soft-secondary rounded-circle" href="#" data-toggle="tooltip" data-placement="top" title="Report story">
+              <i class="fas fa-flag"></i>
+            </a>
           </div>
         </div>
+        <!-- End Share -->
+
+        <!-- Author -->
+        <div class="media align-items-center border-top border-bottom py-5 my-8">
+          <div class="avatar avatar-circle avatar-xl">
+            <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
+          </div>
+          <div class="media-body ml-3">
+            <small class="d-block small font-weight-bold text-cap">Written by</small>
+            <h3 class="mb-0"><a href="blog-profile.html">Hanna Wolfe</a> <button type="button" class="btn btn-xs btn-soft-primary font-weight-bold transition-3d-hover py-1 px-2 ml-1">Follow</button></h3>
+            <p class="mb-0">I create advanced website builders made exclusively for web developers.</p>
+          </div>
+        </div>
+        <!-- End Author -->
+
+        <div class="pt-2 mb-11">
+          <div class="mb-4">
+            <h3>3 Comments</h3>
+          </div>
+
+          <ul class="list-unstyled">
+            <!-- Comment -->
+            <li class="mb-5">
+              <div class="media align-items-center mb-2">
+                <div class="avatar avatar-circle mr-3">
+                  <img class="avatar-img" src="assets/img/100x100/img3.jpg" alt="Image Description">
+                </div>
+                <div class="media-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="h5 mb-0">Dave Austin</span>
+                    <small class="text-muted">1 day ago</small>
+                  </div>
+                </div>
+              </div>
+
+              <p>As a Special Education teacher this resonates so well with me. Fighting with gen ed teachers to flatten for the students with learning disabilities. It also confirms some things for me in my writing.</p>
+
+              <a class="font-weight-bold" href="#">Reply</a>
+
+              <ul class="list-unstyled mt-5">
+                <!-- Comment -->
+                <li class="mb-5">
+                  <div class="border-left border-3 pl-4">
+                    <div class="media align-items-center mb-2">
+                      <div class="avatar avatar-circle mr-3">
+                        <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
+                      </div>
+                      <div class="media-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="h5 mb-0">Hanna Wolfe</span>
+                          <small class="text-muted">1 day ago</small>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p>Love it Dave! We're all about keeping it up.</p>
+
+                    <a class="font-weight-bold" href="#">Reply</a>
+                  </div>
+                </li>
+                <!-- End Comment -->
+              </ul>
+            </li>
+            <!-- End Comment -->
+
+            <!-- Comment -->
+            <li class="mb-5">
+              <div class="media align-items-center mb-2">
+                <div class="avatar avatar-circle mr-3">
+                  <img class="avatar-img" src="assets/img/100x100/img1.jpg" alt="Image Description">
+                </div>
+                <div class="media-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="h5 mb-0">Christina Kray</span>
+                    <small class="text-muted">2 days ago</small>
+                  </div>
+                </div>
+              </div>
+
+              <p>Since our attention spans seem to be shrinking by the day — keeping it simple is more important than ever.</p>
+
+              <a class="font-weight-bold" href="#">Reply</a>
+            </li>
+            <!-- End Comment -->
+          </ul>
+        </div>
+
+        <div class="mb-5">
+          <h3>Post a comment</h3>
+        </div>
+
+        <!-- Form -->
+        <form class="js-validate">
+          <div class="form-row">
+            <div class="col-sm-6 mb-sm-3">
+              <div class="js-form-message form-group">
+                <label class="input-label">Name</label>
+                <input type="text" class="form-control" name="name" id="inputName" placeholder="Name" aria-label="Name" required
+                       data-msg="Please enter your name.">
+              </div>
+            </div>
+
+            <div class="col-sm-6 mb-sm-3">
+              <div class="js-form-message form-group">
+                <label class="input-label">Email</label>
+                <input type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="Email address" aria-label="Email address" required
+                       data-msg="Please enter a valid email address.">
+              </div>
+            </div>
+
+            <div class="col-12 mb-sm-3">
+              <div class="js-form-message form-group">
+                <label class="input-label">Comment</label>
+                <textarea class="form-control" rows="7" id="descriptionTextarea" placeholder="Comment" required
+                          data-msg="Please enter your message."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-wide transition-3d-hover">Submit</button>
+          </div>
+        </form>
+        <!-- End Form -->
       </div>
     </div>
-    <!-- End Visi-Misi Section -->
+    <!-- End Article Description Section -->
 
-    <!-- Featured News Section -->
+    <!-- Blog Card Section -->
+    <div class="container">
+      <div class="w-lg-75 border-top space-2 mx-lg-auto">
+        <div class="mb-3 mb-sm-5">
+          <h3>Related stories</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Blog Card -->
+            <article class="border-bottom h-100 py-5">
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <a class="d-block small font-weight-bold text-cap mb-2" href="#">Product</a>
+                  <h4 class="mb-0"><a class="text-inherit" href="single-article.html">Better is when everything works together</a></h4>
+                </div>
+
+                <div class="col-5">
+                  <img class="img-fluid" src="assets/img/500x280/img1.jpg" alt="Image Description">
+                </div>
+              </div>
+            </article>
+            <!-- End Blog Card -->
+          </div>
+
+          <div class="col-md-6">
+            <!-- Blog Card -->
+            <article class="border-bottom h-100 py-5">
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <a class="d-block small font-weight-bold text-cap mb-2" href="#">Tech</a>
+                  <h4 class="mb-0"><a class="text-inherit" href="single-article.html">Should You Buy An Apple Pencil?</a></h4>
+                </div>
+
+                <div class="col-5">
+                  <img class="img-fluid" src="assets/img/500x280/img3.jpg" alt="Image Description">
+                </div>
+              </div>
+            </article>
+            <!-- End Blog Card -->
+          </div>
+
+          <div class="col-md-6">
+            <!-- Blog Card -->
+            <article class="border-bottom h-100 py-5">
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <a class="d-block small font-weight-bold text-cap mb-2" href="#">Product</a>
+                  <h4 class="mb-0"><a class="text-inherit" href="single-article.html">This Watch gym partnerships give you perks for working out</a></h4>
+                </div>
+
+                <div class="col-5">
+                  <img class="img-fluid" src="assets/img/500x280/img5.jpg" alt="Image Description">
+                </div>
+              </div>
+            </article>
+            <!-- End Blog Card -->
+          </div>
+
+          <div class="col-md-6">
+            <!-- Blog Card -->
+            <article class="border-bottom h-100 py-5">
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <a class="d-block small font-weight-bold text-cap mb-2" href="#">Tech</a>
+                  <h4 class="mb-0"><a class="text-inherit" href="single-article.html">Drone Company PrecisionHawk Names New CEO</a></h4>
+                </div>
+
+                <div class="col-5">
+                  <img class="img-fluid" src="assets/img/500x280/img7.jpg" alt="Image Description">
+                </div>
+              </div>
+            </article>
+            <!-- End Blog Card -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Blog Card Section -->
+
+    <!-- Subscribe Section -->
     <div class="container space-bottom-2 space-bottom-lg-3">
       <!-- Title -->
-      <div class="w-md-80 text-center mx-md-auto space-bottom-1">
-        <h2>Berita</h2>
+      <div class="w-md-60 text-center mx-auto mb-7">
+        <h2>Stay in the know</h2>
+        <p>Get special offers on the latest developments from Front.</p>
       </div>
       <!-- End Title -->
 
-      <!-- Featured Topics Carousel -->
-      <div class="row">
-        <!-- Article -->
-        <article class="col-md-6 col-lg-4 mb-md-5 mb-4">
-          <div class="card border h-100 d-none d-md-inline-block">
-            <div class="card-img-top position-relative">
-              <img class="card-img-top" src="assets/svg/components/graphics-1.svg" alt="Image Description">
-            </div>
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2">Press Release</small>
-              <div class="mb-3">
-                <h4><a class="text-inherit" href="single-article.html">Complete Python Bootcamp: Go from zero to hero in Python 3</a></h4>
-              </div>
-            </div>
-            <div class="card-footer border-0 pt-0">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="mr-2">
-                  <a class="avatar avatar-xs avatar-circle" data-toggle="tooltip" data-placement="top"
-                    title="Admin" href="javascript:;">
-                    <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
-                  </a>
+      <div class="w-lg-40 mx-lg-auto">
+        <!-- Form -->
+        <form class="js-validate">
+          <div class="form-row">
+            <div class="col-sm col-md-6 col-lg mb-2">
+              <div class="js-form-message">
+                <label class="sr-only" for="signupSrEmail">Your email</label>
+                <div class="input-group">
+                  <input type="email" class="form-control" name="email" id="signupSrEmail" placeholder="Your email" aria-label="Your email" required
+                         data-msg="Please enter a valid email address.">
                 </div>
-                <a class="btn btn-sm btn-primary transition-3d-hover" href="single-article.html">Selengkapnya</a>
               </div>
+            </div>
+
+            <div class="col-sm-auto">
+              <button type="submit" class="btn btn-primary btn-block">Get Started</button>
             </div>
           </div>
-          <!-- End Article -->
-
-          <!-- Mobile Article -->
-          <a class="card card-frame p-0 d-md-none" href="single-article.html">
-            <div class="media align-items-center">
-              <div class="w-35 rounded mr-2 bg-img-hero" style="background-image: url(assets/svg/components/graphics-1.svg);height: 95px;">
-              </div>
-              <div class="media-body mr-2">
-                <h4 class="h5 mb-0">Here's how to dodge distractions</h4>
-                <span class="d-block text-body small">Feb 08, 2020</span>
-              </div>
-              <i class="pr-2 fas fa-angle-right"></i>
-            </div>
-          </a>
-          <!-- End Mobile Article -->
-        </article>
-        <!-- End Article -->
-        <!-- Article -->
-        <article class="col-md-6 col-lg-4 mb-md-5 mb-4">
-          <div class="card border h-100 d-none d-md-inline-block">
-            <div class="card-img-top position-relative">
-              <img class="card-img-top" src="assets/svg/components/graphics-1.svg" alt="Image Description">
-            </div>
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2">Press Release</small>
-              <div class="mb-3">
-                <h4><a class="text-inherit" href="single-article.html">Complete Python Bootcamp: Go from zero to hero in Python 3</a></h4>
-              </div>
-            </div>
-            <div class="card-footer border-0 pt-0">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="mr-2">
-                  <a class="avatar avatar-xs avatar-circle" data-toggle="tooltip" data-placement="top"
-                    title="Admin" href="javascript:;">
-                    <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
-                  </a>
-                </div>
-                <a class="btn btn-sm btn-primary transition-3d-hover" href="single-article.html">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- End Article -->
-
-          <!-- Mobile Article -->
-          <a class="card card-frame p-0 d-md-none" href="single-article.html">
-            <div class="media align-items-center">
-              <div class="w-35 rounded mr-2 bg-img-hero" style="background-image: url(assets/svg/components/graphics-1.svg);height: 95px;">
-              </div>
-              <div class="media-body mr-2">
-                <h4 class="h5 mb-0">Here's how to dodge distractions</h4>
-                <span class="d-block text-body small">Feb 08, 2020</span>
-              </div>
-              <i class="pr-2 fas fa-angle-right"></i>
-            </div>
-          </a>
-          <!-- End Mobile Article -->
-        </article>
-        <!-- End Article -->
-        <!-- Article -->
-        <article class="col-md-6 col-lg-4 mb-md-5 mb-4">
-          <div class="card border h-100 d-none d-md-inline-block">
-            <div class="card-img-top position-relative">
-              <img class="card-img-top" src="assets/svg/components/graphics-2.svg" alt="Image Description">
-            </div>
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2">Kegiatan</small>
-              <div class="mb-3">
-                <h4><a class="text-inherit" href="single-article.html">Complete Python Bootcamp: Go from zero to hero in Python 3</a></h4>
-              </div>
-            </div>
-            <div class="card-footer border-0 pt-0">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="mr-2">
-                  <a class="avatar avatar-xs avatar-circle" data-toggle="tooltip" data-placement="top"
-                    title="Admin" href="javascript:;">
-                    <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
-                  </a>
-                </div>
-                <a class="btn btn-sm btn-primary transition-3d-hover" href="single-article.html">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- End Article -->
-
-          <!-- Mobile Article -->
-          <a class="card card-frame p-0 d-md-none" href="single-article.html">
-            <div class="media align-items-center">
-              <div class="w-35 rounded mr-2 bg-img-hero" style="background-image: url(assets/svg/components/graphics-2.svg);height: 95px;">
-              </div>
-              <div class="media-body mr-2">
-                <h4 class="h5 mb-0">Here's how to dodge distractions</h4>
-                <span class="d-block text-body small">Feb 08, 2020</span>
-              </div>
-              <i class="pr-2 fas fa-angle-right"></i>
-            </div>
-          </a>
-          <!-- End Mobile Article -->
-        </article>
-        <!-- End Article -->
-        <!-- Article -->
-        <article class="col-md-6 col-lg-4 mb-md-5 mb-4">
-          <div class="card border h-100 d-none d-md-inline-block">
-            <div class="card-img-top position-relative">
-              <img class="card-img-top" src="assets/svg/components/graphics-3.svg" alt="Image Description">
-            </div>
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2">Kegiatan</small>
-              <div class="mb-3">
-                <h4><a class="text-inherit" href="single-article.html">Complete Python Bootcamp: Go from zero to hero in Python 3</a></h4>
-              </div>
-            </div>
-            <div class="card-footer border-0 pt-0">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="mr-2">
-                  <a class="avatar avatar-xs avatar-circle" data-toggle="tooltip" data-placement="top"
-                    title="Admin" href="javascript:;">
-                    <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
-                  </a>
-                </div>
-                <a class="btn btn-sm btn-primary transition-3d-hover" href="single-article.html">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- End Article -->
-
-          <!-- Mobile Article -->
-          <a class="card card-frame p-0 d-md-none" href="single-article.html">
-            <div class="media align-items-center">
-              <div class="w-35 rounded mr-2 bg-img-hero" style="background-image: url(assets/svg/components/graphics-3.svg);height: 95px;">
-              </div>
-              <div class="media-body mr-2">
-                <h4 class="h5 mb-0">Here's how to dodge distractions</h4>
-                <span class="d-block text-body small">Feb 08, 2020</span>
-              </div>
-              <i class="pr-2 fas fa-angle-right"></i>
-            </div>
-          </a>
-          <!-- End Mobile Article -->
-        </article>
-        <!-- End Article -->
-        <!-- Article -->
-        <article class="col-md-6 col-lg-4 mb-md-5 mb-4">
-          <div class="card border h-100 d-none d-md-inline-block">
-            <div class="card-img-top position-relative">
-              <img class="card-img-top" src="assets/svg/components/graphics-4.svg" alt="Image Description">
-            </div>
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2">Press Release</small>
-              <div class="mb-3">
-                <h4><a class="text-inherit" href="single-article.html">Complete Python Bootcamp: Go from zero to hero in Python 3</a></h4>
-              </div>
-            </div>
-            <div class="card-footer border-0 pt-0">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="mr-2">
-                  <a class="avatar avatar-xs avatar-circle" data-toggle="tooltip" data-placement="top"
-                    title="Admin" href="javascript:;">
-                    <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
-                  </a>
-                </div>
-                <a class="btn btn-sm btn-primary transition-3d-hover" href="single-article.html">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- End Article -->
-
-          <!-- Mobile Article -->
-          <a class="card card-frame p-0 d-md-none" href="single-article.html">
-            <div class="media align-items-center">
-              <div class="w-35 rounded mr-2 bg-img-hero" style="background-image: url(assets/svg/components/graphics-4.svg);height: 95px;">
-              </div>
-              <div class="media-body mr-2">
-                <h4 class="h5 mb-0">Here's how to dodge distractions</h4>
-                <span class="d-block text-body small">Feb 08, 2020</span>
-              </div>
-              <i class="pr-2 fas fa-angle-right"></i>
-            </div>
-          </a>
-          <!-- End Mobile Article -->
-        </article>
-        <!-- End Article -->
-        <!-- Article -->
-        <article class="col-md-6 col-lg-4 mb-md-5 mb-4">
-          <div class="card border h-100 d-none d-md-inline-block">
-            <div class="card-img-top position-relative">
-              <img class="card-img-top" src="assets/svg/components/graphics-5.svg" alt="Image Description">
-            </div>
-            <div class="card-body">
-              <small class="d-block small font-weight-bold text-cap mb-2">Press Release</small>
-              <div class="mb-3">
-                <h4><a class="text-inherit" href="single-article.html">Complete Python Bootcamp: Go from zero to hero in Python 3</a></h4>
-              </div>
-            </div>
-            <div class="card-footer border-0 pt-0">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="mr-2">
-                  <a class="avatar avatar-xs avatar-circle" data-toggle="tooltip" data-placement="top"
-                    title="Admin" href="javascript:;">
-                    <img class="avatar-img" src="assets/img/100x100/img11.jpg" alt="Image Description">
-                  </a>
-                </div>
-                <a class="btn btn-sm btn-primary transition-3d-hover" href="single-article.html">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- End Article -->
-
-          <!-- Mobile Article -->
-          <a class="card card-frame p-0 d-md-none" href="single-article.html">
-            <div class="media align-items-center">
-              <div class="w-35 rounded mr-2 bg-img-hero" style="background-image: url(assets/svg/components/graphics-5.svg);height: 95px;">
-              </div>
-              <div class="media-body mr-2">
-                <h4 class="h5 mb-0">Here's how to dodge distractions</h4>
-                <span class="d-block text-body small">Feb 08, 2020</span>
-              </div>
-              <i class="pr-2 fas fa-angle-right"></i>
-            </div>
-          </a>
-          <!-- End Mobile Article -->
-        </article>
-        <!-- End Article -->
-      </div>
-      <!-- End Featured Topics Carousel -->
-
-      <div class="text-center">
-        <a class="font-weight-bold" href="berita.html">Berita lainnya <i class="fa fa-angle-right fa-sm ml-1"></i></a>
+        </form>
+        <!-- End Form -->
       </div>
     </div>
-    <!-- End Featured News Section -->
-
-    <!-- Hero Mobile Apps -->
-    <div class="bg-primary overflow-hidden position-relative">
-      <div class="space-top-3 space-bottom-2 space-bottom-lg-3">
-        <div class="container mt-lg-11">
-          <!-- Content -->
-          <div class="row">
-            <div class="col-lg-5 col-xl-6">
-              <div class="mb-5">
-                <h2 class="text-white">Mobile aplikasi Kejari Kab. Malang</h2>
-                <p class="text-white small">Sistem Informasi Kejari Kabupaten Malang hadir dengan versi Mobile, dapatkan
-                  kemudahan untuk mengakses informasi dan layanan.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Icon Blocks -->
-        <div class="container">
-          <div class="mb-3">
-            <!-- <a class="btn btn-sm btn-light btn-wide transition-3d-hover" href="#"><i class="fab fa-google-play"></i>  Download gratis!</a> -->
-            <a class="font-weight-bold btn btn-sm btn-light" href="javascript:;"><i
-                class="fab fa-google-play fa-sm ml-1"></i> Download gratis!</a>
-          </div>
-          <p class="small text-white-70">* Early access.</p>
-        </div>
-        <!-- End Icon Blocks -->
-
-        <div class="transform-rotate-5">
-          <div
-            class="d-none d-lg-flex flex-lg-wrap align-items-lg-end position-absolute top-0 left-50 transform-rotate-6"
-            style="width: 45rem;">
-            <!-- Device Mockup -->
-            <div class="device device-horizontal-ipad mr-4 mb-4" style="width: 23rem;" data-aos="fade-up"
-              data-aos-delay="150" data-aos-offset="-300">
-              <img class="device-horizontal-ipad-frame" src="assets/svg/components/ipad-horizontal.svg"
-                alt="Image Description">
-              <img class="device-horizontal-ipad-screen" src="assets/img/1618x1010/img1.jpg" alt="Image Description">
-            </div>
-            <!-- End Device Mockup -->
-
-            <!-- Device Mockup -->
-            <div class="device device-ipad mb-4" style="width: 19rem;" data-aos="fade-up">
-              <img class="device-ipad-frame" src="assets/svg/components/ipad.svg" alt="Image Description">
-              <img class="device-ipad-screen" src="assets/img/533x711/img2.jpg" alt="Image Description">
-            </div>
-            <!-- End Device Mockup -->
-
-            <!-- Device Mockup -->
-            <div class="device device-iphone-x align-self-start" style="width: 7rem;" data-aos="fade-up"
-              data-aos-delay="250" data-aos-offset="-300">
-              <img class="device-iphone-x-frame" src="assets/svg/components/iphone-x.svg" alt="Image Description">
-              <img class="device-iphone-x-screen" src="assets/img/407x867/img8.jpg" alt="Image Description">
-            </div>
-            <!-- End Device Mockup -->
-
-            <!-- Device Mockup -->
-            <div class="device mr-4" style="width: 35rem;" data-aos="fade-up" data-aos-delay="200"
-              data-aos-offset="-300">
-              <img class="img-fluid" src="assets/svg/components/macbook.svg" alt="Image Description">
-              <img class="device-macbook-screen" src="assets/img/1618x1010/img2.jpg" alt="Image Description">
-            </div>
-            <!-- End Device Mockup -->
-
-            <!-- SVG Shape -->
-            <figure class="max-w-23rem w-100 position-absolute bottom-0 left-0 z-index-n1" data-aos="fade-up"
-              data-aos-delay="300" data-aos-offset="-400">
-              <div class="mb-n7 ml-n11">
-                <img class="img-fluid" src="assets/svg/components/abstract-shapes-10.svg" alt="Image Description">
-              </div>
-            </figure>
-            <!-- End SVG Shape -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Hero Mobile Apps -->
+    <!-- End Subscribe Section -->
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
