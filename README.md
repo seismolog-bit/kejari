@@ -31,7 +31,6 @@ Layanan
 - intel jaga desa: field nama laporan
 - intel penyuluhan: materi
 - intel: topik pengaduan
-
 - form di jadiin md-10 lg-10
 
 Tahapan:
@@ -39,3 +38,19 @@ Tahapan:
 - dibaca (success),
 - proses: diproses (warning) /ditolak (danger)
 - selesai (primary)
+
+Formulir:
+- Pelayanan hukum instansi: (bantuan hukum, pertimbangan hukum, tindak hukum)
+- Pelayanan hukum masyarakat
+- Izin besuk tahanan
+- Tilang drive thru
+- Pengaduan masyarakat
+- Penyuluhan hukum
+- Jaksa jaga desa
+- Jaksa masuk sekolah
+- pakem
+- Pengambilan barang bukti
+
+Kelengkapan:
+- Detail pelayanan hukum masyarakat
+- 

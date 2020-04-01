@@ -3,7 +3,7 @@
 
 <head>
   <!-- Title -->
-  <title>Kejari Kab. Malang</title>
+  <title>Pelayanan Hukum Masyarakat | Kejari Kab. Malang</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -285,7 +285,7 @@
                               <a class="dropdown-item" href="jaksa-jaga-desa.html">Jaksa Jaga Desa</a>
                               <a class="dropdown-item" href="jaksa-masuk-sekolah.html">Jaksa Masuk Sekolah</a>
                               <a class="dropdown-item" href="pakem.html">PAKEM</a>
-                              <a class="dropdown-item" href="info-wna.html">Informasi WNA</a>
+                              <a class="dropdown-item" href="https://irit-io.id" target="_blank">Informasi WNA</a>
                             </div>
                           </div>
                         </div>
@@ -342,7 +342,7 @@
     <!-- Laporan Section -->
     <div class="container space-top-3 space-top-lg-4 space-bottom-2">
       <!-- Hero -->
-      <div class="w-md-80 w-lg-65 mb-5 mb-md-9">
+      <div class="w-md-80 w-lg-65 mb-5 mb-md-9 js-scroll-nav">
         <h1 class="mb-4">Pelayanan Hukum Masyarakat</h1>
         <p>Pelayanan tanya jawab terkait hukum secara gratis. Pelayanan hukum ini meliputi Pidana Umum, Pidana Khusus dan Hukum Perdata. Ingin menggunakan layanan ini?<a class="font-weight-bold" href="#panduan"> Cek Panduan <i class="fas fa-angle-right fa-sm ml-1"></i></a></p>
       </div>
@@ -530,7 +530,7 @@
             <!-- End Icon Block -->
 
             <div class="mt-2">
-              <a class="btn btn-primary transition-3d-hover px-4" href="pelayanan-hukum-form.html">Formulir Hukum</a>
+              <a class="btn btn-primary transition-3d-hover px-4" href="form-pelayanan-hukum-masyarakat.html">Formulir Hukum</a>
             </div>
           </div>
         </div>
@@ -945,6 +945,9 @@
   <script src="assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
   <script src="assets/js/hs.cubeportfolio.js"></script>
 
+  <!-- Scroll -->
+  <script src="assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
+
   <!-- JS Plugins Init. -->
   <script>
     $(document).on('ready', function () {
@@ -990,6 +993,11 @@
           filters: '#filterControls',
           displayTypeSpeed: 0
         });
+      });
+
+      // initialization of scroll nav
+      $('.js-scroll-nav').each(function () {
+        var scrollNav = new HSScrollNav($(this)).init();
       });
     });
   </script>

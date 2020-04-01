@@ -3,7 +3,7 @@
 
 <head>
   <!-- Title -->
-  <title>Kejari Kab. Malang</title>
+  <title>Layanan Pengambilan BB | Kejari Kab. Malang</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -22,6 +22,7 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css">
 </head>
 
 <body>
@@ -261,7 +262,7 @@
                               <a class="dropdown-item" href="jaksa-jaga-desa.html">Jaksa Jaga Desa</a>
                               <a class="dropdown-item" href="jaksa-masuk-sekolah.html">Jaksa Masuk Sekolah</a>
                               <a class="dropdown-item" href="pakem.html">PAKEM</a>
-                              <a class="dropdown-item" href="info-wna.html">Informasi WNA</a>
+                              <a class="dropdown-item" href="https://irit-io.id" target="_blank">Informasi WNA</a>
                             </div>
                           </div>
                         </div>
@@ -317,6 +318,100 @@
       </div>
     </div>
     <!-- End Hero Section -->
+
+    <!-- Panduan Section -->
+    <div id="panduan" class="overflow-hidden space-2">
+      <div class="container">
+        <div class="row justify-content-lg-between align-items-lg-center">
+          <div class="col-lg-6 mb-9 mb-lg-0">
+            <div class="position-relative max-w-40rem mx-auto">
+              <div class="device device-iphone-x w-85 mx-auto">
+                <img class="device-iphone-x-frame" src="assets/svg/components/iphone-x.svg" alt="Image Description">
+                <img class="device-iphone-x-screen" src="assets/img/407x867/img1.jpg" alt="Image Description">
+              </div>
+
+              <div class="position-absolute top-0 right-0 z-index-2 max-w-33rem mr-n11 mt-9">
+                <img class="img-fluid shadow-lg rounded" src="assets/img/407x115/img1.jpg" alt="Image Description">
+              </div>
+              <div class="position-absolute bottom-0 left-0 z-index-2 max-w-55rem ml-md-n10 ml-n7 mb-10">
+                <!-- <img class="img-fluid shadow-lg rounded" src="assets/img/480x320/img26.jpg" alt="Image Description"> -->
+                <a class="js-fancybox media-viewer" href="javascript:;"
+                 data-hs-fancybox-options='{
+                   "src": "assets/img/info/pengambilan-bb.jpg",
+                   "caption": "Pengambilan Barang Bukti",
+                   "speed": 700
+                 }'>
+                <img class="img-fluid rounded" src="assets/img/info/pengambilan-bb.jpg" alt="Image Description">
+          
+                <span class="media-viewer-container">
+                  <span class="media-viewer-icon">
+                    <i class="fas fa-plus media-viewer-icon-inner"></i>
+                  </span>
+                </span>
+              </a>
+              </div>
+
+              <div class="position-absolute bottom-0 right-0 max-w-50rem w-100 z-index-n1 mx-auto">
+                <img class="img-fluid" src="assets/svg/components/abstract-shapes-3.svg" alt="Image Description">
+              </div>
+            </div>
+            <!-- End Mockups -->
+          </div>
+
+          <div class="col-lg-5">
+            <div class="mb-5">
+              <h2>Panduan Pengambilan Barang Bukti</h2>
+            </div>
+
+            <!-- Icon Block -->
+            <ul class="step step-dashed mb-7">
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">1</span>
+                  <div class="step-content">
+                    <h3 class="h4">Login Pengguna</h3>
+                    <p>Login sebagai pengguna untuk dapat melakukan pengajuan pengambilan barang bukti.</p>
+                  </div>
+                 </div>
+              </li>
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">2</span>
+                  <div class="step-content">
+                    <h4>Konfirmasi Status BB</h4>
+                    <p class="mb-2">Hubungi petugas layanan barang bukti untuk mengecek status barang bukti dalam berkas, musnah, rampas musnah, kembali atau telah dikembali.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">3</span>
+                  <div class="step-content">
+                    <h4>Mengisi Form Pengambilan BB</h4>
+                    <p class="mb-2">Jika berstatus kembali Anda dipersilakan untuk mengisi formulir pengambilan BB dengan melampirkan berkas pengambilan.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="step-item mb-0">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">5</span>
+                  <div class="step-content">
+                    <h4>Menunggu Verifikasi Petugas</h4>
+                    <p class="mb-0">Anda akan menerima balasan dari Petugas yang dikirimkan melalui Notifikasi Pesan pada Website atau Aplikasi Mobile.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- End Icon Block -->
+
+            <div class="mt-2">
+              <a class="btn btn-primary transition-3d-hover px-4" href="form-pengambilan-bb.html">Formulir Pengambilan BB</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Panduan Section -->
     
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
@@ -714,14 +809,15 @@
   <script src="assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
   <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
   <script src="assets/vendor/typed.js/lib/typed.min.js"></script>
-  <!-- <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script> -->
+  <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
   <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
 
   <!-- JS Front -->
   <script src="assets/js/hs.core.js"></script>
   <script src="assets/js/hs.validation.js"></script>
-  <!-- <script src="assets/js/hs.fancybox.js"></script> -->
+  <script src="assets/js/hs.fancybox.js"></script>
   <script src="assets/js/hs.slick-carousel.js"></script>
+  
 
   <!-- JS Plugins Init. -->
   <script>
@@ -759,6 +855,11 @@
       // initialization of go to
       $('.js-go-to').each(function () {
         var goTo = new HSGoTo($(this)).init();
+      });
+
+      // initialization of fancybox
+      $('.js-fancybox').each(function () {
+        var fancybox = $.HSCore.components.HSFancyBox.init($(this));
       });
     });
   </script>
