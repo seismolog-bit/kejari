@@ -18680,6 +18680,7 @@ label.btn {
     top: 0;
     right: 0;
     z-index: 1003;
+    min-width: 20rem;
     width: 23.4375rem;
     height: 100%;
     background-color: #fff;
