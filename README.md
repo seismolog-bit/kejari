@@ -52,5 +52,7 @@ Formulir:
 - Pengambilan barang bukti
 
 Kelengkapan:
-- Detail pelayanan hukum masyarakat
-- 
+- halaman layanan
+- detail pelayanan hukum masyarakat
+- detail riwayat user (dihapus)
+- detail kotak masuk

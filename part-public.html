@@ -3,7 +3,7 @@
 
 <head>
   <!-- Title -->
-  <title>Judul Halaman</title>
+  <title>Kejari Kab. Malang</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -22,12 +22,11 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="assets/css/theme.css">
-  <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="header header-box-shadow-on-scroll header-abs-top header-bg-transparent header-show-hide left-aligned-navbar">
+  <header id="header" class="header header-sticky-top-lg header-sticky-top-inner header-box-shadow-on-scroll header-abs-top left-aligned-navbar">
     <div class="header-section">
       <div id="logoAndNav" class="container">
         <!-- Nav -->
@@ -253,6 +252,7 @@
                             <span class="d-block h5">Barang Bukti</span>
                             <div class="mb-3">
                               <a class="dropdown-item" href="info-pengambilan-bb.html">Informasi Pengambilang BB</a>
+                              <a class="dropdown-item" href="info-pengembalian-bb.html">Informasi Pengembalian BB</a>
                             </div>
                             <span class="d-block h5">Intel</span>
                             <div class="mb-3">
@@ -307,7 +307,7 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- TODO: BODY -->
+    
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
@@ -704,15 +704,14 @@
   <script src="assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
   <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
   <script src="assets/vendor/typed.js/lib/typed.min.js"></script>
-  <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+  <!-- <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script> -->
   <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
 
   <!-- JS Front -->
   <script src="assets/js/hs.core.js"></script>
   <script src="assets/js/hs.validation.js"></script>
-  <script src="assets/js/hs.fancybox.js"></script>
+  <!-- <script src="assets/js/hs.fancybox.js"></script> -->
   <script src="assets/js/hs.slick-carousel.js"></script>
-  
 
   <!-- JS Plugins Init. -->
   <script>
@@ -750,11 +749,6 @@
       // initialization of go to
       $('.js-go-to').each(function () {
         var goTo = new HSGoTo($(this)).init();
-      });
-
-      // initialization of fancybox
-      $('.js-fancybox').each(function () {
-        var fancybox = $.HSCore.components.HSFancyBox.init($(this));
       });
     });
   </script>
