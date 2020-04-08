@@ -206,5 +206,87 @@
       "agenda": "Agenda persidangan",
       "tuntutan": "tuntutan"
     }
+  ],
+  "info_lelang" : [
+    {
+      "nama": "Herschel backpack in dark blue",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img3.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "PL",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "122.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "Front hoodie",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img1.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "Offline",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "432.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "Herschel backpack in gray",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img4.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "Online",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "162.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "Front Originals adicolor t-shirt with",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img6.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "PL",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "633.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "Front mesh baseball cap with signature logo",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img7.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "Online",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "435.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "Front Originals adicolor t-shirt in gray",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img2.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "Offline",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "112.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "COLLUSION Unisex mechanic print t-shirt",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img5.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "Offline",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "634.000",
+      "jaminan": "100.000"
+    },
+    {
+      "nama": "Billabong Walled snapback in green",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/300x180/img8.jpg",
+      "detail": "As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs are added season upon season, referencing everything.",
+      "jumlah": "1",
+      "jenis": "PL",
+      "tanggal": "2020-03-02 06:50:02",
+      "limit": "125.000",
+      "jaminan": "100.000"
+    }
   ]
 }
