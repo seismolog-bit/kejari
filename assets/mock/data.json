@@ -144,5 +144,67 @@
       "detail": "Pertanyaan anda terkait hukum telah kami publish silakan mengunjungi link berikut.",
       "lampiran": null
     }
+  ],
+  "info_pidum": [
+    {
+      "penyidik": "Polres Metro Jaksel",
+      "diterima": "2020-03-04 06:50:02",
+      "tersangka": "Siti Anita Alias Nita",
+      "pasal": "326 KUHP",
+      "jaksa": "Yanti,SH",
+      "jenis": "OHARDA"
+    },
+    {
+      "penyidik": "Polsek Metro Keb.lama",
+      "diterima": "2020-03-11 06:50:02",
+      "tersangka": "Ferryzal Bin H.Nurhasan (alm)",
+      "pasal": "362 KUHP dan 53 KUHP",
+      "jaksa": "Trihandayani Ika, SH",
+      "jenis": "OHARDA"
+    },
+    {
+      "penyidik": "Polres Metro Jaksel",
+      "diterima": "2020-03-12 06:50:02",
+      "tersangka": "Sunardi als Asun",
+      "pasal": "362 KUHP JO 480 KUHP",
+      "jaksa": "Nasrudin,SH",
+      "jenis": "NARKOTIKA & ZAT ADIKTIF"
+    },
+    {
+      "penyidik": "Polsek Pesanggrahan",
+      "diterima": "2020-02-04 06:50:02",
+      "tersangka": "Virta Septiyani",
+      "pasal": "378 JO",
+      "jaksa": "Septina,SH",
+      "jenis": "KAMNEG-TPUL"
+    },
+    {
+      "penyidik": "Polres Jaksel",
+      "diterima": "2020-03-21 06:50:02",
+      "tersangka": "Ali Karimi Farrokholiah",
+      "pasal": "363 KUHP",
+      "jaksa": "Yanti,SH",
+      "jenis": "NARKOTIKA & ZAT ADIKTIF"
+    }
+  ],
+  "info_pidsus": [
+    {
+      "terdakwa": "Siti Anita alias Nita",
+      "pasal": "326 KUHP",
+      "agenda": "Agenda persidangan",
+      "tuntutan": "tuntutan"
+    },
+    {
+      "terdakwa": "Ferryzal Bin H.Nurhasan (alm)",
+      "pasal": "Pasal 2 (1) UU Darurat No. 12 thn 1951",
+      "agenda": "Agenda persidangan",
+      "tuntutan": "tuntutan"
+    },
+    {
+      "terdakwa": "Romi Heryadi als Rom bin Jayadi",
+      "pasal": "362 KUHP",
+      "agenda": "Agenda persidangan",
+      "tuntutan": "tuntutan"
+    }
   ]
 }
