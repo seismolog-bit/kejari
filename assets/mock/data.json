@@ -288,5 +288,47 @@
       "limit": "125.000",
       "jaminan": "100.000"
     }
+  ],
+  "riwayat" : [
+    {
+      "layanan": "Pengaduan Masyarakat",
+      "status": "ditolak",
+      "tanggal": "2020-03-09 06:50:02",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "detail": "Selamat pagi saya ada pengaduan tentang pungutan liat di daerah Kejaksaan, Cirebon.",
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+    },
+    {
+      "layanan": "Izin Besuk Tahanan",
+      "status": "dibaca",
+      "tanggal": "2020-03-08 06:50:02",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "detail": "-",
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+    },
+    {
+      "layanan": "Tilang Drive Thru",
+      "status": "selesai",
+      "tanggal": "2020-03-09 06:50:02",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "detail": "-",
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+    },
+    {
+      "layanan": "Penyuluhan Hukum",
+      "status": "diproses",
+      "tanggal": "2020-03-09 06:50:02",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "detail": "Penyuluhan tenang sengketa tanah di Desa Bojong.",
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+    },
+    {
+      "layanan": "Penyuluhan Hukum",
+      "status": "diterima",
+      "tanggal": "2020-03-09 06:50:02",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "detail": "Penyuluhan tenang sengketa tanah di Desa Bojong.",
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+    }
   ]
 }
