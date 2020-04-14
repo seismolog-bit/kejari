@@ -116,15 +116,15 @@
       "layanan": "Penyuluhan Hukum",
       "status": "selesai",
       "tanggal": "2020-03-04 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/035-penyuluhan.png",
       "detail": "Pengajuan atas nama Komunitas Drag Cirebon telah kami terima, selanjutnya kegiatan akan dilaksanakan pada 12/02/2018. Detail petugas yang kami tugaskan terlampir dalam surat balasan kami",
-      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/035-penyuluhan.png"
     },
     {
       "layanan": "Izin Besuk Tahanan",
       "status": "ditolak",
       "tanggal": "2020-03-04 07:51:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/014-jail.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/028-besuk-tahanan.png",
       "detail": "Terdakwa tidak ditemukan",
       "lampiran": null
     },
@@ -132,7 +132,7 @@
       "layanan": "Pengawasan Aliran Kepercayaan Masyarakat",
       "status": "selesai",
       "tanggal": "2020-03-02 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/004-approve.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/026-tindak.png",
       "detail": "Kami telah menerima laporan anda. Akan kami dalami laporan tersebut, terimakasih telah lapor.",
       "lampiran": null
     },
@@ -140,7 +140,7 @@
       "layanan": "Layanan Hukum Masyarakat",
       "status": "selesai",
       "tanggal": "2020-03-02 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/037-meeting.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/027-hukum-masyarakat.png",
       "detail": "Pertanyaan anda terkait hukum telah kami publish silakan mengunjungi link berikut.",
       "lampiran": null
     }
@@ -294,41 +294,41 @@
       "layanan": "Pengaduan Masyarakat",
       "status": "ditolak",
       "tanggal": "2020-03-09 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/034-pengaduan.png",
       "detail": "Selamat pagi saya ada pengaduan tentang pungutan liat di daerah Kejaksaan, Cirebon.",
-      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/034-pengaduan.png"
     },
     {
       "layanan": "Izin Besuk Tahanan",
       "status": "dibaca",
       "tanggal": "2020-03-08 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/028-besuk-tahanan.png",
       "detail": "-",
-      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/028-besuk-tahanan.png"
     },
     {
       "layanan": "Tilang Drive Thru",
       "status": "selesai",
       "tanggal": "2020-03-09 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/029-tilang.png",
       "detail": "-",
-      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/029-tilang.png"
     },
     {
       "layanan": "Penyuluhan Hukum",
       "status": "diproses",
       "tanggal": "2020-03-09 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/035-penyuluhan.png",
       "detail": "Penyuluhan tenang sengketa tanah di Desa Bojong.",
-      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/035-penyuluhan.png"
     },
     {
       "layanan": "Penyuluhan Hukum",
       "status": "diterima",
       "tanggal": "2020-03-09 06:50:02",
-      "gambar": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png",
+      "gambar": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/035-penyuluhan.png",
       "detail": "Penyuluhan tenang sengketa tanah di Desa Bojong.",
-      "lampiran": "https://seismolog-bit.github.io/kejari/assets/img/icons/029-announcement.png"
+      "lampiran": "https://seismolog-bit.github.io/kejari/assets/icons/layanan/035-penyuluhan.png"
     }
   ]
 }
