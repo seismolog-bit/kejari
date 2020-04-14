@@ -3,7 +3,7 @@
 
 <head>
   <!-- Title -->
-  <title>Profil | Kejari Kab. Malang</title>
+  <title>Judul</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -26,7 +26,8 @@
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="header header-sticky-top left-aligned-navbar">
+  <header id="header"
+    class="header header-sticky-top-lg header-sticky-top-inner header-box-shadow-on-scroll left-aligned-navbar">
     <div class="header-section shadow-sm">
       <div id="logoAndNav" class="container">
         <!-- Nav -->
@@ -189,8 +190,8 @@
               <ul class="navbar-nav">
                 <!-- Profil -->
                 <li class="hs-has-sub-menu navbar-nav-item">
-                  <a id="coursesMegaMenu" class="hs-mega-menu-invoker nav-link" href="javascript:;"
-                    aria-haspopup="true" aria-expanded="false" aria-labelledby="coursesSubMenu">
+                  <a id="coursesMegaMenu" class="hs-mega-menu-invoker nav-link" href="javascript:;" aria-haspopup="true"
+                    aria-expanded="false" aria-labelledby="coursesSubMenu">
                     <i class="fa fa-th font-size-1 mr-2"></i>Menu
                   </a>
 
@@ -307,8 +308,8 @@
 
                 <!-- Layanan -->
                 <li class="hs-has-mega-menu navbar-nav-item">
-                  <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle"
-                    href="javascript:;" aria-haspopup="true" aria-expanded="false">Layanan</a>
+                  <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                    aria-haspopup="true" aria-expanded="false">Layanan</a>
 
                   <!-- Layanan - Mega Menu -->
                   <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="homeMegaMenu">
@@ -329,12 +330,12 @@
                       </div>
 
                       <div class="col-lg-6">
-                        <div class="row mega-menu-body p-3">
-                          <div class="col-6 mb-sm-0">
+                        <div class="row mega-menu-body">
+                          <div class="col-sm-6 mb-3 mb-sm-0">
                             <span class="d-block h5">Datun</span>
                             <div class="mb-3">
-                              <a class="dropdown-item" href="pelayanan-hukum-instansi.html">Layanan Hukum Instansi</a>
-                              <a class="dropdown-item" href="pelayanan-hukum.html">Layanan Hukum Masyarakat</a>
+                              <a class="dropdown-item" href="pelayanan-hukum-instansi.html">Pelayanan Hukum Instansi</a>
+                              <a class="dropdown-item" href="pelayanan-hukum.html">Pelayanan Hukum Gratis</a>
                             </div>
                             <span class="d-block h5">Pidum</span>
                             <div class="mb-3">
@@ -352,10 +353,11 @@
                             </div>
                           </div>
 
-                          <div class="col-6">
+                          <div class="col-sm-6">
                             <span class="d-block h5">Barang Bukti</span>
                             <div class="mb-3">
-                              <a class="dropdown-item" href="info-pengambilan-bb.html">Pengambilang BB</a>
+                              <a class="dropdown-item" href="info-pengambilan-bb.html">Informasi Pengambilang BB</a>
+                              <a class="dropdown-item" href="info-pengembalian-bb.html">Informasi Pengembalian BB</a>
                             </div>
                             <span class="d-block h5">Intel</span>
                             <div class="mb-3">
@@ -364,7 +366,7 @@
                               <a class="dropdown-item" href="jaksa-jaga-desa.html">Jaksa Jaga Desa</a>
                               <a class="dropdown-item" href="jaksa-masuk-sekolah.html">Jaksa Masuk Sekolah</a>
                               <a class="dropdown-item" href="pakem.html">PAKEM</a>
-                              <a class="dropdown-item" href="info-wna.html">Informasi WNA</a>
+                              <a class="dropdown-item" href="https://irit-io.id" target="_blank">Informasi WNA</a>
                             </div>
                           </div>
                         </div>
@@ -391,9 +393,8 @@
 
                 <!-- Pages -->
                 <li class="hs-has-sub-menu navbar-nav-item mr-lg-auto">
-                  <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle"
-                    href="javascript:;" aria-haspopup="true" aria-expanded="false"
-                    aria-labelledby="pagesSubMenu">Bantuan</a>
+                  <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                    aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Bantuan</a>
 
                   <!-- Pages - Submenu -->
                   <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
@@ -402,7 +403,6 @@
                     <a class="dropdown-item" href="javascript:;">Syarat dan Ketentuan</a>
                     <a class="dropdown-item" href="javascript:;">Kebijakan Privasi</a>
                     <a class="dropdown-item" href="javascript:;">Peta Situs</a>
-                    <a class="dropdown-item" href="javascript:;">Status</a>
                   </div>
                   <!-- End Pages - Submenu -->
                 </li>
@@ -455,37 +455,81 @@
     </div>
     <!-- End Hero Section -->
     <div class="container space-bottom-2">
-      <div class="mt-n11">
-        <div class="card p-lg-4 p-4">
-          <div class="w-100 space-2 mx-md-auto">
-            <div class="media d-block d-sm-flex">
-              <div class="position-relative mx-auto mb-3 mb-sm-0 mr-sm-4" style="width: 160px; height: 160px;">
-                <img class="img-fluid rounded-circle" src="assets/img/100x100/img1.jpg" alt="Image Description" width="160" height="160">
+      <div class="row justify-content-center mt-n11">
+        <div class="card col-md-10 p-lg-4 p-4">
+          <!-- Profil -->
+          <!-- Title -->
+          <div class="d-flex align-items-center">
+            <h4 class="mb-0">Edit Profil</h4>
+          </div>
+          <!-- End Title -->
+          <form class="js-validate" novalidate="novalidate">
+            <!-- Form Group -->
+            <div class="js-form-message form-group mt-5">
+              <label class="input-label" for="nama">Nama Lengkap</label>
+              <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama Lengkap"
+                aria-label="Nama Lengkap" required="" data-msg="Lengkapi nama lengkap Anda." value="Nataly Gaga">
+            </div>
+            <!-- End Form Group -->
+
+            <div class="row">
+              <!-- Form Group -->
+              <div class="js-form-message form-group col-md-6">
+                <label class="input-label" for="email">Email address</label>
+                <input type="email" class="form-control" disabled name="email" id="email" placeholder="Email address"
+                  aria-label="Email address" required="" data-msg="Email tidak valid." value="natalygaga@gmail.com">
               </div>
-    
-              <div class="media-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h1 class="h3">Nataly Gaga</h1>
-                  <div class="d-block">
-                    <a class="btn btn-xs btn-outline-primary font-weight-bold text-nowrap ml-1" href="profil-edit.html">Edit profil</a>
+              <!-- End Form Group -->
+
+              <!-- Form Group -->
+              <div class="js-form-message form-group col-md-6">
+                <label class="input-label" for="noHp">Nomor Telepon</label>
+                <input type="number" class="form-control" name="noHp" id="noHp" placeholder="089660600419"
+                  aria-label="089660600419" required="" data-msg="Nomor tidak valid." value="089660600419">
+              </div>
+              <!-- End Form Group -->
+            </div>
+
+            <!-- Alamat -->
+            <div class="js-form-message mb-4 mb-md-6">
+              <label class="input-label">Alamat</label>
+              <textarea class="form-control" rows="4" name="answer" placeholder="Alamat lengkap"
+                aria-label="Alamat lengkap" required=""
+                data-msg="Lengkapi alamat Anda.">Jalan Tirto Utomo, Gang VIII, Nomor 19-H, Landungsari, Dau, Malang, Jawa Timur</textarea>
+            </div>
+            <!-- End Alamat -->
+
+            <!-- Button -->
+            <div class="row align-items-center mb-5">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <!-- Update Avatar Form -->
+                <form class="media align-items-center mt-5">
+                  <!-- <div class="u-lg-avatar mr-3">
+                      <img class="img-fluid rounded-circle" src="assets/img/100x100/img1.jpg" alt="Image Description">
+                    </div> -->
+
+                  <div class="media-body">
+                    <label class="btn btn-sm btn-primary transition-3d-hover file-attachment-btn mb-1 mb-sm-0 mr-1"
+                      for="fileAttachmentBtn">
+                      Upload Foto
+                      <input id="fileAttachmentBtn" name="file-attachment" type="file"
+                        class="file-attachment-btn-label">
+                    </label>
+
+                    <button type="submit"
+                      class="btn btn-sm btn-soft-secondary transition-3d-hover mb-1 mb-sm-0">Delete</button>
                   </div>
-                </div>
-    
-                <div class="row text-body font-size-1 mb-2">
-                  <div class="col-auto">
-                    <span><i class="fa fa-envelope"></i></span>
-                    <span>natalygaga@gmail.com</span>
-                  </div>
-                  <div class="col-auto">
-                    <span><i class="fa fa-phone"></i></span>
-                    <span>089660600419</span>
-                  </div>
-                </div>
-    
-                <p class="mb-0">Jalan Tirto Utomo, Gang VIII, Nomor 19-H, Landungsari, Dau, Malang, Jawa Timur</p>
+                </form>
+                <!-- End Update Avatar Form -->
+              </div>
+
+              <div class="col-sm-6 text-sm-right">
+                <button type="submit" class="btn btn-sm btn-primary transition-3d-hover">Perbarui profil</button>
               </div>
             </div>
-          </div>
+            <!-- End Button -->
+          </form>
+          <!-- End Profil -->
         </div>
       </div>
     </div>
@@ -650,7 +694,7 @@
                   <a class="media mb-2" href="#">
                     <div class="mt-1 mr-3">
                       <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/case.svg" alt="Image Description">
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-bb.svg" alt="Image Description">
                       </div>
                     </div>
                     <div class="media-body">
@@ -664,21 +708,7 @@
                   <a class="media mb-2" href="#">
                     <div class="mt-1 mr-3">
                       <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/auction.svg" alt="Image Description">
-                      </div>
-                    </div>
-                    <div class="media-body">
-                      <div class="mb-2">
-                        <span class="d-block text-dark font-size-1 font-weight-bold mb-1">Java programming masterclass
-                          for software developers</span>
-                        <small class="d-block text-body">15/11/2020</small>
-                      </div>
-                    </div>
-                  </a>
-                  <a class="media mb-2" href="#">
-                    <div class="mt-1 mr-3">
-                      <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/fingerprint.svg"
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-datun.svg"
                           alt="Image Description">
                       </div>
                     </div>
@@ -693,35 +723,7 @@
                   <a class="media mb-2" href="#">
                     <div class="mt-1 mr-3">
                       <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/case.svg" alt="Image Description">
-                      </div>
-                    </div>
-                    <div class="media-body">
-                      <div class="mb-2">
-                        <span class="d-block text-dark font-size-1 font-weight-bold mb-1">Java programming masterclass
-                          for software developers</span>
-                        <small class="d-block text-body">15/11/2020</small>
-                      </div>
-                    </div>
-                  </a>
-                  <a class="media mb-2" href="#">
-                    <div class="mt-1 mr-3">
-                      <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/auction.svg" alt="Image Description">
-                      </div>
-                    </div>
-                    <div class="media-body">
-                      <div class="mb-2">
-                        <span class="d-block text-dark font-size-1 font-weight-bold mb-1">Java programming masterclass
-                          for software developers</span>
-                        <small class="d-block text-body">15/11/2020</small>
-                      </div>
-                    </div>
-                  </a>
-                  <a class="media mb-2" href="#">
-                    <div class="mt-1 mr-3">
-                      <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/fingerprint.svg"
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-pidsus.svg"
                           alt="Image Description">
                       </div>
                     </div>
@@ -736,7 +738,8 @@
                   <a class="media mb-2" href="#">
                     <div class="mt-1 mr-3">
                       <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/auction.svg" alt="Image Description">
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-pidum.svg"
+                          alt="Image Description">
                       </div>
                     </div>
                     <div class="media-body">
@@ -750,7 +753,51 @@
                   <a class="media mb-2" href="#">
                     <div class="mt-1 mr-3">
                       <div class="avatar">
-                        <img class="avatar-img rounded-sm" src="assets/svg/icons/fingerprint.svg"
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-pidsus.svg"
+                          alt="Image Description">
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <div class="mb-2">
+                        <span class="d-block text-dark font-size-1 font-weight-bold mb-1">Java programming masterclass
+                          for software developers</span>
+                        <small class="d-block text-body">15/11/2020</small>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="media mb-2" href="#">
+                    <div class="mt-1 mr-3">
+                      <div class="avatar">
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-bb.svg" alt="Image Description">
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <div class="mb-2">
+                        <span class="d-block text-dark font-size-1 font-weight-bold mb-1">Java programming masterclass
+                          for software developers</span>
+                        <small class="d-block text-body">15/11/2020</small>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="media mb-2" href="#">
+                    <div class="mt-1 mr-3">
+                      <div class="avatar">
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-datun.svg"
+                          alt="Image Description">
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <div class="mb-2">
+                        <span class="d-block text-dark font-size-1 font-weight-bold mb-1">Java programming masterclass
+                          for software developers</span>
+                        <small class="d-block text-body">15/11/2020</small>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="media mb-2" href="#">
+                    <div class="mt-1 mr-3">
+                      <div class="avatar">
+                        <img class="avatar-img rounded-sm" src="assets/svg/icons/icon-pidsus.svg"
                           alt="Image Description">
                       </div>
                     </div>
