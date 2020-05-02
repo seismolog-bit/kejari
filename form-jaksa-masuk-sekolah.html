@@ -626,11 +626,18 @@
               </div>
               <!-- End Input -->
 
+              <form action="/file-upload" class="dropzone">
+                <div class="fallback">
+                  <input name="file" type="file" multiple />
+                </div>
+              </form>
+
               <div class="mb-3 mb-md-5">
                 <!-- Input -->
                 <label class="input-label">Lampiran Surat Permohonan</label>
                 <div id="resumeAttach" class="js-dropzone dz-dropzone dz-dropzone-boxed" data-hs-dropzone-options='{
-                  "url": "assets/include/upload.html"
+                  "url": "assets/include/upload.html",
+                  "type": file
                }'>
                   <div class="dz-message p-2">
                     <span class="d-block mb-1">Pilih File</span>
