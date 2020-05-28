@@ -194,6 +194,169 @@
                     "detail": "Saat terverifikasi petugas akan membuatkan balasan berupa laporan dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
                 }
             ]
+        },
+        "pidum": {
+            "izin-besuk": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login sebagai pengguna untuk dapat melakukan permintaan izin besuk tahanan."
+                },
+                {
+                    "title": "Mengisi Formulir",
+                    "detail": "Lengkapi formulir Layanan Izin Besuk Tahanan."
+                },
+                {
+                    "title": "Verifikasi Petugas",
+                    "detail": "Petugas akan melakukan verifikasi pengajuan Anda dalam waktu 2-3 hari kerja."
+                },
+                {
+                    "title": "Menerima Laporan Petugas",
+                    "detail": "Saat terverifikasi petugas akan membuatkan balasan berupa surat izin dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
+                }
+            ],
+            "tilang": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login sebagai pengguna untuk dapat melakukan pendaftaran Loket Tilang Drive Thru."
+                },
+                {
+                    "title": "Cek Putusan Tilang",
+                    "detail": "Lakukan pengecekan putusan untuk mengatahui denda tilang Anda."
+                },
+                {
+                    "title": "Bayar Denda Tilang",
+                    "detail": "Lakukan pembayaran denda tilang melalui melalui Nomor Rekening Kejadi Kab. Malang dengan Nomor Rekening 0098-090-89089 A.N Kejari Kab Malang Bank BNI."
+                },
+                {
+                    "title": "Daftar Secara Online",
+                    "detail": "Daftar online melalui Website atau Aplikasi dengan mengisi Formulir pendaftaran. Lampirkan foto bukti Blangko Tilang dan Foto Kwitansi pembayaran denda Tilang."
+                },
+                {
+                    "title": "Menunggu Verifikasi Petugas",
+                    "detail": "Anda akan menerima balasan dari Petugas berupa Tiket Penambilan yang berisi Tanggal Pengambilan yang dikirimkan melalui Notifikasi Pesan pada Website atau Aplikasi Mobile."
+                }
+            ]
+        },
+        "barang-bukti": {
+            "pengambilan-bb": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login sebagai pengguna untuk dapat melakukan pengajuan pengambilan barang bukti."
+                },
+                {
+                    "title": "Konfirmasi Status BB",
+                    "detail": "Hubungi petugas layanan barang bukti untuk mengecek status barang bukti dalam berkas, musnah, rampas musnah, kembali atau telah dikembali."
+                },
+                {
+                    "title": "Mengisi Form Pengambilan BB",
+                    "detail": "Jika berstatus kembali Anda dipersilakan untuk mengisi formulir pengambilan BB dengan melampirkan berkas pengambilan."
+                },
+                {
+                    "title": "Menunggu Verifikasi Petugas",
+                    "detail": "Anda akan menerima balasan dari Petugas yang dikirimkan melalui Notifikasi Pesan pada Website atau Aplikasi Mobile."
+                }
+            ],
+            "peminjaman-bb": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login sebagai pengguna untuk dapat melakukan pengajuan peminjaman barang bukti."
+                },
+                {
+                    "title": "Konfirmasi Status BB",
+                    "detail": "Hubungi petugas layanan barang bukti untuk mengecek status barang bukti dalam berkas, musnah, rampas musnah, kembali atau telah dikembali."
+                },
+                {
+                    "title": "Mengisi Form Peminaman BB",
+                    "detail": "Jika berstatus kembali Anda dipersilakan untuk mengisi formulir peminjaman BB dengan melampirkan berkas peminjaman."
+                },
+                {
+                    "title": "Menunggu Verifikasi Petugas",
+                    "detail": "Anda akan menerima balasan dari Petugas yang dikirimkan melalui Notifikasi Pesan pada Website atau Aplikasi Mobile."
+                }
+            ]
+        },
+        "intel": {
+            "pengaduan": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login pengguna untuk melakukan pengaduan."
+                },
+                {
+                    "title": "Mengisi Formulir",
+                    "detail": "Lengkapi formulir aduan dengan detail dan terperinci."
+                },
+                {
+                    "title": "Verifikasi Petugas",
+                    "detail": "Petugas akan melakukan verifikasi laporan Anda dalam waktu 2-3 hari kerja."
+                },
+                {
+                    "title": "Menerima Laporan Petugas",
+                    "detail": "Saat terverifikasi petugas akan membuatkan balasan atas laporan tersebut dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
+                }
+            ],
+            "penyuluhan": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login pengguna untuk melakukan permohonan."
+                },
+                {
+                    "title": "Mengisi Formulir",
+                    "detail": "Lengkapi formulir permohonan dengan mengisi data kelompok masyarakat/komunitas/instansi dan materi edukasi."
+                },
+                {
+                    "title": "Verifikasi Petugas",
+                    "detail": "Petugas akan melakukan verifikasi permohonan Anda dalam waktu 2-3 hari kerja."
+                },
+                {
+                    "title": "Menerima Laporan Petugas",
+                    "detail": "Saat terverifikasi petugas akan membuatkan balasan berupa laporan detail pelaksanaan kegiatan dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
+                }
+            ],
+            "jaga-desa": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login dengan akun desa untuk menambahkan laporan."
+                },
+                {
+                    "title": "Mengisi Formulir",
+                    "detail": "Lengkapi formulir dengan benar."
+                },
+                {
+                    "title": "Verifikasi Petugas",
+                    "detail": "Petugas akan melakukan verifikasi laporan dalam waktu 2-3 hari kerja."
+                },
+                {
+                    "title": "Menerima Laporan Petugas",
+                    "detail": "Saat terverifikasi petugas akan membuatkan balasan dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
+                }
+            ],
+            "masuk-sekolah": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login pengguna untuk melakukan permohonan."
+                },
+                {
+                    "title": "Mengisi Formulir",
+                    "detail": "Lengkapi formulir permohonan dengan mengisi data sekolah dan materi edukasi."
+                },
+                {
+                    "title": "Verifikasi Petugas",
+                    "detail": "Petugas akan melakukan verifikasi permohonan Anda dalam waktu 2-3 hari kerja."
+                },
+                {
+                    "title": "Menerima Laporan Petugas",
+                    "detail": "Saat terverifikasi petugas akan membuatkan balasan berupa laporan detail pelaksanaan kegiatan dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
+                }
+            ],
+            "pakem": [{
+                    "title": "Login Pengguna",
+                    "detail": "Login pengguna untuk melakukan pengaduan."
+                },
+                {
+                    "title": "Mengisi Formulir",
+                    "detail": "Lengkapi formulir pengaduan dengan benar."
+                },
+                {
+                    "title": "Verifikasi Petugas",
+                    "detail": "Petugas akan melakukan verifikasi pengaduan Anda dalam waktu 2-3 hari kerja."
+                },
+                {
+                    "title": "Menerima Laporan Petugas",
+                    "detail": "Saat terverifikasi petugas akan membuatkan balasan pengaduan Anda dan akan dikirimkan melalui notifikasi pesan pada website atau aplikasi Kejari Kab. Malang."
+                }
+            ]
         }
     }
 }
