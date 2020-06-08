@@ -12,10 +12,16 @@
             "detail": "<p>Untuk melakukan pengajuan Ijin sakit, masuk menu Pengajuan Izin dan Cuti pada menu utama</p>"
         },
         {
-            "type": 2,
+            "type": 1,
             "title": "Pengajuan cuti",
             "subtitle": "Bagaimana cara melakukan pengajuan cuti?",
             "detail": "<p>Untuk melakukan pengajuan Ijin sakit, masuk menu Pengajuan Izin dan Cuti pada menu utama</p>"
+        },
+        {
+            "type": 3,
+            "title": "Tunjangan",
+            "subtitle": "Bagaimana melihat potongan tujangan bulanan saya?",
+            "detail": "<p>Untuk melihat potongan tunjangan bulanan anda dapat membuka menu Gaji pada Menu Utama aplikasi</p>"
         }
     ],
     "akun": {
