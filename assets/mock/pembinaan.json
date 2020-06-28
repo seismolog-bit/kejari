@@ -29,35 +29,35 @@
         "nama": "Muhammad Agiel Nugraha",
         "nrp": "000000000",
         "nip": "00000000 000000 0 000",
-        "tempat_lahir": "Bantaeng",
-        "tanggal_lahir": "",
+        "tempat_lahir": "Cirebon",
+        "tanggal_lahir": "01-05-1994",
         "gaji": "4522500",
         "pangkat": "Jaksa Madya",
         "jabatan": "Kasubagbin",
         "status": "PNS",
-        "tanggal_mulai_bekerja": "03/01/1993",
-        "tanggal_mulai_kejaksaan": "16/01/2020",
-        "tanggal_naik_pangkat": "16/01/2020",
+        "tanggal_mulai_bekerja": "03-01-1993",
+        "tanggal_mulai_kejaksaan": "16-01-2020",
+        "tanggal_naik_pangkat": "16-01-2020",
         "pendidikan": "S1"
     },
     "pengajuan_ijin": [{
             "jenis": "tahunan",
-            "tanggal_awal": "01/06/2020",
-            "tanggal_akhir": "05/06/2020",
+            "tanggal_awal": "01-06-2020",
+            "tanggal_akhir": "05-06-2020",
             "status": "pending",
             "lampiran": null
         },
         {
             "jenis": "sakit",
-            "tanggal_awal": "01/05/2020",
-            "tanggal_akhir": "02/05/2020",
+            "tanggal_awal": "01-05-2020",
+            "tanggal_akhir": "02-05-2020",
             "status": "diterima",
             "lampiran": "1_20200601_001.jpg"
         },
         {
             "jenis": "sakit",
-            "tanggal_awal": "11/05/2020",
-            "tanggal_akhir": "16/06/2020",
+            "tanggal_awal": "11-05-2020",
+            "tanggal_akhir": "16-06-2020",
             "status": "ditolak",
             "lampiran": "1_20200602_001.jpg"
         }
