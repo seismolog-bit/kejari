@@ -41,23 +41,26 @@
         "pendidikan": "S1"
     },
     "pengajuan_ijin": [{
+            "id": 1,
             "jenis": "tahunan",
-            "tanggal_awal": "01-06-2020",
-            "tanggal_akhir": "05-06-2020",
+            "tanggal_awal": "2020-07-01 13:45:12.853558",
+            "tanggal_akhir": "2020-07-02 13:45:12.853558",
             "status": "pending",
             "lampiran": null
         },
         {
+            "id": 2,
             "jenis": "sakit",
-            "tanggal_awal": "01-05-2020",
-            "tanggal_akhir": "02-05-2020",
+            "tanggal_awal": "2020-07-01 13:45:12.853558",
+            "tanggal_akhir": "2020-07-03 13:45:12.853558",
             "status": "diterima",
             "lampiran": "1_20200601_001.jpg"
         },
         {
+            "id": 3,
             "jenis": "sakit",
-            "tanggal_awal": "11-05-2020",
-            "tanggal_akhir": "16-06-2020",
+            "tanggal_awal": "2020-07-01 13:45:12.853558",
+            "tanggal_akhir": "2020-07-04 13:45:12.853558",
             "status": "ditolak",
             "lampiran": "1_20200602_001.jpg"
         }
