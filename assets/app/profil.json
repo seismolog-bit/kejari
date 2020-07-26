@@ -1,0 +1,72 @@
+{
+    "profil": [
+        {
+            "id": "tentang",
+            "icon": "",
+            "judul": "Tentang Kejaksaan",
+            "isi": "<p>Tentang kejaksaan</p>"
+        },
+        {
+            "id": "visi",
+            "icon": "",
+            "judul": "Visi-Misi",
+            "isi": "<p>Visi Misi</p>"
+        },
+        {
+            "id": "pejabat",
+            "icon": "",
+            "judul": "Pejabat Struktural",
+            "isi": "<p>Pejabat struktural</p>"
+        },
+        {
+            "id": "struktur",
+            "icon": "",
+            "judul": "Struktur Organisasi",
+            "isi": "<p>Struktur organisasi</p>"
+        },
+        {
+            "id": "perintah-harian",
+            "icon": "",
+            "judul": "Perintah Harian Jaksa Agung",
+            "isi": "<p>Perintah harian jaksa agung ri</p>"
+        }
+    ],
+    "organisasi": [
+        {
+            "id": "pembinaan",
+            "icon": "",
+            "judul": "Pembinaan",
+            "isi": "<p>Pembinaan</p>"
+        },
+        {
+            "id": "intelojen",
+            "icon": "",
+            "judul": "Intelijen",
+            "isi": "<p>Intel</p>"
+        },
+        {
+            "id": "pidum",
+            "icon": "",
+            "judul": "Pidana Umum",
+            "isi": "<p>Pidum</p>"
+        },
+        {
+            "id": "pidsus",
+            "icon": "",
+            "judul": "Pidana Khusus",
+            "isi": "<p>Pidsus</p>"
+        },
+        {
+            "id": "datun",
+            "icon": "",
+            "judul": "Perdata dan TUN",
+            "isi": "<p>Datun</p>"
+        },
+        {
+            "id": "bb",
+            "icon": "",
+            "judul": "Barang Bukti",
+            "isi": "<p>Barang bukti</p>"
+        }
+    ]
+}
