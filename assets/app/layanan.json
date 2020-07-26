@@ -1,0 +1,89 @@
+{
+    "datun": [
+        {
+            "title": "Pelayanan Hukum Instansi",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/datun/023-hukum-instansi.png",
+            "url": "https://kejari-malangkab.go.id/layanan-hukum-instansi"
+        },
+        {
+            "title": "Pelayanan Hukum Gratis",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/datun/39-pelayanan-hukum-masyarakat.png",
+            "url": "https://kejari-malangkab.go.id/layanan-hukum-masyarakat"
+        }
+    ],
+    "pidum": [
+        {
+            "title": "Izin Besuk Tahanan",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/pidum/35-izin-besuk-tahanan.png",
+            "url": "https://kejari-malangkab.go.id/izin-besuk"
+        },
+        {
+            "title": "Tilang Drive Thru",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/pidum/36-tilang-drive-thru.png",
+            "url": "https://kejari-malangkab.go.id/tilang-drive-thru"
+        },
+        {
+            "title": "Informasi Pidana Umum",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/pidum/37-informasi-pidum.png",
+            "url": "https://kejari-malangkab.go.id/perkara-pidum"
+        }
+    ],
+    "pidsus": [
+        {
+            "title": "Informasi Pidana Khusus",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/pidsus/38-informasi-pidsus.png",
+            "url": "https://kejari-malangkab.go.id/perkara-pidsus"
+        }
+    ],
+    "pembinaan": [
+        {
+            "title": "Informasi Lelang",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/pembinaan/28-informasi-lelang.png",
+            "url": "https://kejari-malangkab.go.id/info-lelang"
+        }
+    ],
+    "bb": [
+        {
+            "title": "Pengambilan BB",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/bb/43-pengambilan-bb.png",
+            "url": "https://kejari-malangkab.go.id/ambil-barang-bukti"
+        },
+        {
+            "title": "Peminjaman BB",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/bb/025-peminjaman.png",
+            "url": "https://kejari-malangkab.go.id/pinjam-barang-bukti"
+        }
+    ],
+    "intel": [
+        {
+            "title": "Pengaduan Masyarakat",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/intelijen/29-pengaduan-masyarakat.png",
+            "url": "https://kejari-malangkab.go.id/pengaduan-masyarakat"
+        },
+        {
+            "title": "Penyuluhan Hukum",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/intelijen/30-penyuluhan-hukum.png",
+            "url": "https://kejari-malangkab.go.id/penyuluhan-hukum"
+        },
+        {
+            "title": "Jaksa Jaga Desa",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/intelijen/31-jaksa-jaga-desa.png",
+            "url": "https://kejari-malangkab.go.id/jaksa-jaga-desa"
+        },
+        {
+            "title": "Jaksa Masuk Sekolah",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/intelijen/32-jaksa-masuk-sekolah.png",
+            "url": "https://kejari-malangkab.go.id/jaksa-masuk-sekolah"
+        },
+        {
+            "title": "PAKEM",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/intelijen/33-pakem.png",
+            "url": "https://kejari-malangkab.go.id/pakem"
+        },
+        {
+            "title": "Informasi WNA",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/layanan/intelijen/34-informasi-wna.png",
+            "url": "https://irit-io.id"
+        }
+    ]
+}

@@ -2,31 +2,31 @@
     "profil": [
         {
             "id": "tentang",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/profil/02-kejari-kab-malang.png",
             "judul": "Tentang Kejaksaan",
             "isi": "<p>Tentang kejaksaan</p>"
         },
         {
             "id": "visi",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/profil/03-visi-misi.png",
             "judul": "Visi-Misi",
             "isi": "<p>Visi Misi</p>"
         },
         {
             "id": "pejabat",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/profil/01-kata-sambutan.png",
             "judul": "Pejabat Struktural",
             "isi": "<p>Pejabat struktural</p>"
         },
         {
             "id": "struktur",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/profil/04-pejabat-struktural.png",
             "judul": "Struktur Organisasi",
             "isi": "<p>Struktur organisasi</p>"
         },
         {
             "id": "perintah-harian",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/profil/08-perintah-harian.png",
             "judul": "Perintah Harian Jaksa Agung",
             "isi": "<p>Perintah harian jaksa agung ri</p>"
         }
@@ -34,39 +34,137 @@
     "organisasi": [
         {
             "id": "pembinaan",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/09-pembinaan.png",
             "judul": "Pembinaan",
             "isi": "<p>Pembinaan</p>"
         },
         {
-            "id": "intelojen",
-            "icon": "",
+            "id": "intelijen",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/10-intel.png",
             "judul": "Intelijen",
             "isi": "<p>Intel</p>"
         },
         {
             "id": "pidum",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/11-pidum.png",
             "judul": "Pidana Umum",
             "isi": "<p>Pidum</p>"
         },
         {
             "id": "pidsus",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/12-pidsus.png",
             "judul": "Pidana Khusus",
             "isi": "<p>Pidsus</p>"
         },
         {
             "id": "datun",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/13-datun.png",
             "judul": "Perdata dan TUN",
             "isi": "<p>Datun</p>"
         },
         {
             "id": "bb",
-            "icon": "",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/14-bb.png",
             "judul": "Barang Bukti",
             "isi": "<p>Barang bukti</p>"
+        }
+    ],
+    "sarana": [
+        {
+            "id": "ptsp",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/15-koperasi.png",
+            "judul": "PTSP",
+            "isi": "<p>Pembinaan</p>"
+        },
+        {
+            "id": "ruang-layanan",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/17-iadk.png",
+            "judul": "Ruang Layanan",
+            "isi": "<p>Intel</p>"
+        },
+        {
+            "id": "loket-tilang",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/15-koperasi.png",
+            "judul": "Loket Tilang",
+            "isi": "<p>Pidum</p>"
+        },
+        {
+            "id": "klinik",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/16-kesehatan.png",
+            "judul": "Klinik",
+            "isi": "<p>Pidsus</p>"
+        },
+        {
+            "id": "musholah",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/15-koperasi.png",
+            "judul": "Musholah",
+            "isi": "<p>Datun</p>"
+        },
+        {
+            "id": "jalus-disabilitas",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/15-koperasi.png",
+            "judul": "Jalur Disabilitas",
+            "isi": "<p>Barang bukti</p>"
+        },
+        {
+            "id": "sarana-lainnya",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/19-perpustakaan.png",
+            "judul": "Jalur Disabilitas",
+            "isi": "<p>Sarana Lainnya</p>"
+        }
+    ],
+    "arsip": [
+        {
+            "id": "berita",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/arsip/12-berita.png",
+            "judul": "Berita",
+            "isi": "<p>Pembinaan</p>"
+        },
+        {
+            "id": "galeri",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/arsip/13-galeri.png",
+            "judul": "Galeri",
+            "isi": "<p>Intel</p>"
+        },
+        {
+            "id": "video",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/arsip/14-video.png",
+            "judul": "Video",
+            "isi": "<p>Pidum</p>"
+        }
+    ],
+    "peraturan": [
+        {
+            "id": "peraturan",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/peraturan/20-peraturan.png",
+            "judul": "Peraturan",
+            "isi": "<p>Pembinaan</p>"
+        }
+    ],
+    "bantuan": [
+        {
+            "id": "panduan",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/bantuan/24-panduan-pengguna.png",
+            "judul": "Panduan Penggunaan",
+            "isi": "<p>Pembinaan</p>"
+        },
+        {
+            "id": "syarat-ketentuan",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/bantuan/25-syarat-ketentuan.png",
+            "judul": "Syarat Ketentuan",
+            "isi": "<p>Syarat Ketentuan</p>"
+        },
+        {
+            "id": "kebijakan-privasi",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/bantuan/26-kebijakan-privasi.png",
+            "judul": "Kebijakan Privasi",
+            "isi": "<p>Kebijakan privasi</p>"
+        },
+        {
+            "id": "kontak",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/bantuan/27-kontak.png",
+            "judul": "Kontak",
+            "isi": "<p>Kontak</p>"
         }
     ]
 }
