@@ -40,7 +40,7 @@
         },
         {
             "id": "intelijen",
-            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/10-intel.png",
+            "icon": "https://kejari-malangkab.go.id/assets/icons/organisasi/10-intelijen.png",
             "judul": "Intelijen",
             "isi": "<p>Intel</p>"
         },
@@ -109,7 +109,7 @@
         {
             "id": "sarana-lainnya",
             "icon": "https://kejari-malangkab.go.id/assets/icons/sarana/19-perpustakaan.png",
-            "judul": "Jalur Disabilitas",
+            "judul": "Sarana Lainnya",
             "isi": "<p>Sarana Lainnya</p>"
         }
     ],
